@@ -3,7 +3,7 @@ import { CoreDefaultPage } from './pages/default/core-default.page';
 import { BrowserModule } from '@angular/platform-browser';
 import { CoreRoutingModule } from './core-routing.module';
 import { MenuTopComponent } from './pages/default/components/menu-top/menu-top.component';
-import { AddTitleModule, ThemeEnum, ThemeModule } from 'projects/fover-components-lib/src/public-api';
+import { AddTitleModule, ThemeEnum, ThemeModule } from 'projects/fover-library-lib/src/public-api';
 
 @NgModule({
     declarations: [

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fover-components": {
+    "fover-library": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fover-components",
+            "outputPath": "dist/fover-library",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fover-components:build:production"
+              "browserTarget": "fover-library:build:production"
             },
             "development": {
-              "browserTarget": "fover-components:build:development"
+              "browserTarget": "fover-library:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fover-components:build"
+            "browserTarget": "fover-library:build"
           }
         },
         "test": {
@@ -103,23 +103,23 @@
         }
       }
     },
-    "fover-components-lib": {
+    "fover-library-lib": {
       "projectType": "library",
-      "root": "projects/fover-components-lib",
-      "sourceRoot": "projects/fover-components-lib/src",
+      "root": "projects/fover-library-lib",
+      "sourceRoot": "projects/fover-library-lib/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/fover-components-lib/ng-package.json"
+            "project": "projects/fover-library-lib/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/fover-components-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/fover-library-lib/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/fover-components-lib/tsconfig.lib.json"
+              "tsConfig": "projects/fover-library-lib/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -127,9 +127,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/fover-components-lib/src/test.ts",
-            "tsConfig": "projects/fover-components-lib/tsconfig.spec.json",
-            "karmaConfig": "projects/fover-components-lib/karma.conf.js"
+            "main": "projects/fover-library-lib/src/test.ts",
+            "tsConfig": "projects/fover-library-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/fover-library-lib/karma.conf.js"
           }
         }
       }

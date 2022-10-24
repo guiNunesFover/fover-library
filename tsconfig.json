@@ -8,8 +8,8 @@
     "strict": true,
     "noImplicitOverride": true,
     "paths": {
-      "fover-components-lib": [
-        "dist/fover-components-lib"
+      "fover-library-lib": [
+        "dist/fover-library-lib"
       ]
     },
     "noPropertyAccessFromIndexSignature": true,

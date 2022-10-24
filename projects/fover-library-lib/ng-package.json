@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/fover-components-lib",
+  "dest": "../../dist/fover-library-lib",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "fover-components-lib",
+  "name": "fover-library-lib",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.0.0",
