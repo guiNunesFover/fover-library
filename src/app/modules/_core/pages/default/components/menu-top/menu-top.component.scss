@@ -1,0 +1,29 @@
+@import "src/assets/styles/main.scss";
+
+.container-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.8vh;
+    padding: 0 230px;
+    box-sizing: border-box;
+    box-shadow: $box-shadow;
+    transition: $transition;
+    background-color: var(--background-cards);
+    
+    .container-logo
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        text-decoration: none;
+
+        .menu-top-title
+        {
+            font-size: 2.3vh;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    }
+}
