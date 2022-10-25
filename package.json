@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build": "ng build fover-library-lib",
+    "publish": "npm run build && cd dist/fover-library-lib && npm publish"
   },
   "private": true,
   "dependencies": {

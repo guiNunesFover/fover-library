@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonComponent } from './button.component';
+import { FoverButtonComponent } from './fover-button.component';
 
 @NgModule({
     declarations: [
-        ButtonComponent,
+        FoverButtonComponent,
     ],
     imports: [
         CommonModule,
     ],
     exports: [
-        ButtonComponent,
+        FoverButtonComponent,
     ],
 })
-export class ButtonModule {}
+export class FoverButtonModule {}

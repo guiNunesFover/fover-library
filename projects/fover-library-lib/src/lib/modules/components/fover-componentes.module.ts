@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { ButtonModule } from './button';
+import { FoverButtonModule } from './button/fover-button.module';
 
 @NgModule({
     exports: [
-        ButtonModule
+        FoverButtonModule
     ],
 })
 export class FoverComponentesModule {}

@@ -1,2 +1,2 @@
-export { ButtonComponent } from "./button.component";
-export { ButtonModule } from "./button.module";
+export { FoverButtonComponent } from "./fover-button.component";
+export { FoverButtonModule } from "./fover-button.module";
