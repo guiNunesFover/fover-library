@@ -1,0 +1,9 @@
+@import "src/assets/styles/main.scss";
+
+.container-menu
+{
+    padding: 5px;
+    background-color: var(--background-cards);
+    height: calc(100vh - 8vh);
+    width: 200px;
+}
