@@ -1,0 +1,27 @@
+@import "src/assets/styles/main.scss";
+
+.container-body
+{
+    margin-top: 60px;
+    text-align: center;
+
+    .page-title
+    {
+        font-size: 7.3vh;
+    }
+
+    .container-options
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 32px;
+        margin-top: 42px;
+    }
+
+    .logo
+    {
+        width: 32vh;
+        margin-top: 12vh;
+    }
+}

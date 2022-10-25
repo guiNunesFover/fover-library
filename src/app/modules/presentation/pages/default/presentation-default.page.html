@@ -1,0 +1,28 @@
+<div class="container-body">
+
+    <!-- Title -->
+    <h1
+        addTitle
+        class="page-title"
+        [title]="'Fover componentes - ' + title">{{title}}
+    </h1>
+
+    <!-- Options -->
+    <div class="container-options">
+        <fover-button
+            [height]="'xl'"
+            (click)="navigateToListComponents()">Components
+        </fover-button>
+        <fover-button
+            [height]="'xl'"
+            [type]="'transparent'">Documentação
+        </fover-button>
+    </div>
+
+    <!-- Logo -->
+    <img 
+        class="logo"
+        src="assets/images/logo-fover.svg"
+        addTitle 
+        [title]="'Fover Technology'" />
+</div>
