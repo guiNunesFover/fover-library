@@ -3,4 +3,9 @@
 .container-page
 {
     display: flex;
+
+    .container-body
+    {
+        width: 100%;
+    }
 }

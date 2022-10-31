@@ -9,5 +9,8 @@ export const lightTheme: Theme =
         '--background-page': '#21272D',
         '--background-cards': '#323741',
         '--title': '#fff',
+        '--placeholder': '#808289',
+        
+        '--primary': '#0071FF',
     }
 };

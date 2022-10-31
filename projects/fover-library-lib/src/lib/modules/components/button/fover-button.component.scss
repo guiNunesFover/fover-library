@@ -15,8 +15,8 @@
     outline: none;
     cursor: pointer;
     transition: $transition;
-    background-color: #0071FF;
-    color: white;
+    background-color: var(--primary);
+    color: var(--title);
 
     &:disabled
     {
@@ -60,7 +60,7 @@
     &.type-transparent
     {
         background-color: transparent;
-        color: #0071FF;
+        color: var(--primary);
 
         &:hover
         {
