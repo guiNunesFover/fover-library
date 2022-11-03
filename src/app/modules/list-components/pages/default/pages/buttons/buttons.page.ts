@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ButtonPage 
 {
-    public html: string = "<fover-button [type]='transparent'>transparent</fover-button>";
+    public code: string = "<fover-button>primary</fover-button>\n\
+<fover-button [type]='transparent'>transparent</fover-button>";
 }

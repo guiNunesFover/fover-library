@@ -5,6 +5,7 @@ import { ListComponentsRoutingModule } from './list-components-routing.module';
 import { MenuLateralComponent } from './pages/default/components/menu-lateral/menu-lateral.component';
 import { ButtonPage } from './pages/default/pages/buttons/buttons.page';
 import { FoverComponentesModule } from 'fover-library-lib';
+import { FoverEditorModule } from '../_shared/fover-editor/fover-editor.module';
 
 @NgModule({
     declarations: [
@@ -16,6 +17,7 @@ import { FoverComponentesModule } from 'fover-library-lib';
         CommonModule,
         ListComponentsRoutingModule,
         FoverComponentesModule,
+        FoverEditorModule,
     ],
     exports: [
         ListComponentsDefaultPage
