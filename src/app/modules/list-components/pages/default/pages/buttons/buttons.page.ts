@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: './buttons.page.html',
     styleUrls: ['./buttons.page.scss']
 })
-export class ButtonPage {}
+export class ButtonPage 
+{
+    public html: string = "<fover-button [type]='transparent'>transparent</fover-button>";
+}
