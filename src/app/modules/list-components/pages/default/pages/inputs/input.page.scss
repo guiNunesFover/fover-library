@@ -1,0 +1,27 @@
+@import 'src/assets/styles/main.scss';
+
+.container-page
+{
+    padding: 52px;
+    box-sizing: border-box;
+
+    .title
+    {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .message
+    {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .container-examples
+    {
+        display: flex;
+        align-items: center;
+        grid-gap: 12px;
+        margin-top: 21px;
+    }
+}

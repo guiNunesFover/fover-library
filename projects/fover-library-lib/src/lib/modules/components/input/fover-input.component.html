@@ -1,0 +1,13 @@
+<div 
+    class="container-input"
+    [class.has-error]="hasError()">
+
+    <!-- Label -->
+    <label class="label">{{ label }}</label>
+
+    <!-- Inputs -->
+    <ng-content></ng-content>
+    
+    <!-- Message error -->
+    <p *ngIf="hasError()">{{ errorMessage || "Campo inválido." }}</p>
+</div>

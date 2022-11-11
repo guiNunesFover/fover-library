@@ -8,9 +8,11 @@ export const lightTheme: Theme =
     {
         '--background-page': '#21272D',
         '--background-cards': '#323741',
+        '--border': '#484B55',
         '--title': '#fff',
         '--placeholder': '#808289',
         
         '--primary': '#0071FF',
+        '--error': '#FE1016',
     }
 };
