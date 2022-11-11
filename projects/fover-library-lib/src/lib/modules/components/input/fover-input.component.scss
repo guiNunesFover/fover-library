@@ -13,8 +13,8 @@
         align-items: center;
         border-radius: 7px;
         width: 100%;
-        height: 45px;
-        padding: 0 12px;
+        height: 100%;
+        padding: 0 18px;
         box-sizing: border-box;
         outline: none;
         font-size: 16px;
@@ -29,6 +29,66 @@
 {
     display: flex;
     flex-direction: column;
+
+    &.height-xl 
+    {
+        ::ng-deep
+        {
+            input
+            {
+                height: 60px;
+                border-radius: 23px;
+            }
+        }
+    }
+    
+    &.height-l 
+    {
+        ::ng-deep
+        {
+            input
+            {
+                height: 53px;
+                border-radius: 19px;
+            }
+        }
+    }
+
+    &.height-default
+    {
+        ::ng-deep
+        {
+            input
+            {
+                height: 45px;
+                border-radius: 16px;
+            }
+        }
+    }
+
+    &.height-small 
+    {
+        ::ng-deep
+        {
+            input
+            {
+                height: 40px;
+                border-radius: 14px;
+            }
+        }
+    }
+
+    &.height-mini 
+    {
+        ::ng-deep
+        {
+            input
+            {
+                height: 36px;
+                border-radius: 10px;
+            }
+        }
+    }
 
     &.has-error
     {

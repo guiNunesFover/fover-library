@@ -1,6 +1,9 @@
 <div 
     class="container-input"
-    [class.has-error]="hasError()">
+    [class.has-error]="hasError()"
+    [ngClass]="
+        'height-' + height + ' '
+    ">
 
     <!-- Label -->
     <label class="label">{{ label }}</label>

@@ -8,6 +8,7 @@ import { FormControlName } from '@angular/forms';
 })
 export class FoverInputComponent implements AfterViewInit
 {
+    @Input() height: 'xl' | 'l' | 'default' | 'small' | 'mini' = 'default';
     @Input() label: string;
     @Input() errorMessage: string;
     @ContentChild(FormControlName) control: FormControlName;

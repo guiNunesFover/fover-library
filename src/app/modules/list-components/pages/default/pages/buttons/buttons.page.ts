@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import html from "./teste.html"; 
 
 @Component({
     selector: 'buttons',
@@ -8,8 +7,10 @@ import html from "./teste.html";
 })
 export class ButtonPage 
 {
-    public code: string = "<fover-button>primary</fover-button>\n\
-<fover-button [type]='transparent'>transparent</fover-button>";
+    public code: any;
 
-    public teste: string = html;
+    constructor() 
+    {
+        this.code = require('html-loader!./examples/simple.html').default;
+    }
 }

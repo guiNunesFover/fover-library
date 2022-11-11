@@ -6,15 +6,44 @@
     <!-- Messages -->
     <p class="message">Adicione uma entrada de elementos facilitada com o componente 'fover-input'</p>
 
-    <!-- Examples -->
-    <div class="container-examples">
-        <fover-input>
-            <input type="text" placeholder="te">
-        </fover-input>
-    </div>
-
-    <!-- Code example -->
-    <fover-editor
-        [code]="'code'">
-    </fover-editor>
+    <!-- Inputs simples -->
+    <ng-container>
+        
+        <!-- Sub Title -->
+        <h1 class="sub-title">Inputs simples</h1>
+    
+        <!-- Examples -->
+        <div class="container-examples">
+            
+            <!-- Mini -->
+            <fover-input [height]="'mini'">
+                <input placeholder="Digite aqui...">
+            </fover-input>
+    
+            <!-- Small -->
+            <fover-input [height]="'small'">
+                <input placeholder="Digite aqui...">
+            </fover-input>
+    
+            <!-- default -->
+            <fover-input>
+                <input placeholder="Digite aqui...">
+            </fover-input>
+    
+            <!-- l -->
+            <fover-input [height]="'l'">
+                <input placeholder="Digite aqui...">
+            </fover-input>
+    
+            <!-- xl -->
+            <fover-input [height]="'xl'">
+                <input placeholder="Digite aqui...">
+            </fover-input>
+        </div>
+    
+        <!-- Code example -->
+        <fover-editor
+            [code]="code">
+        </fover-editor>
+    </ng-container>
 </div>
