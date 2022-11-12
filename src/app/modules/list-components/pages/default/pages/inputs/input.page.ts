@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
 })
 export class InputPage 
 {
-    public code: any;
+    public codeSimple: string;
+    public codeWithLabel: string;
 
     constructor() 
     {
-        this.code = require('html-loader!./examples/simple.html').default;
+        this.codeSimple = require('html-loader!./examples/simple.html').default;
+        this.codeWithLabel = require('html-loader!./examples/with-label.html').default;
     }
 }
