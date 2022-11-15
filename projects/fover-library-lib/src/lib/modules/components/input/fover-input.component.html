@@ -1,5 +1,6 @@
 <div 
     class="container-input"
+    [class.icon-right]="iconRight"
     [class.has-error]="hasError()"
     [ngClass]="
         'height-' + height + ' '
@@ -7,6 +8,13 @@
 
     <!-- Label -->
     <label class="label">{{ label }}</label>
+
+    <!-- Icon right -->
+    <i 
+        *ngIf="iconRight"
+        class="icon-right"
+        [class]="iconRight">
+    </i>
 
     <!-- Inputs -->
     <ng-content></ng-content>

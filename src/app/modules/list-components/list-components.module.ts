@@ -8,6 +8,7 @@ import { FoverEditorModule } from '../_shared/fover-editor/fover-editor.module';
 import { InputPage } from './pages/default/pages/inputs/input.page';
 import { FoverComponentesModule } from 'projects/fover-library-lib/src/public-api';
 import { IconsPage } from './pages/default/pages/_icons/icons.page';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { IconsPage } from './pages/default/pages/_icons/icons.page';
     ],
     imports: [
         CommonModule,
+        ReactiveFormsModule,
         ListComponentsRoutingModule,
         FoverComponentesModule,
         FoverEditorModule,
