@@ -1,0 +1,45 @@
+@import 'src/assets/styles/main.scss';
+
+.container-page
+{
+    padding: 52px;
+    box-sizing: border-box;
+
+    .title
+    {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+
+    .message
+    {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .container-examples
+    {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 12px;
+        margin-top: 21px;
+    }
+}
+
+.container-icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    border: solid 1px var(--border);
+    background-color: var(--background-cards);
+
+    p
+    {
+        margin-top: 6px;
+    }
+}

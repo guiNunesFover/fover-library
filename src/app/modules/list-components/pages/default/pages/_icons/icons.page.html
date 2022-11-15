@@ -1,0 +1,30 @@
+<div class="container-page">
+
+    <!-- Title -->
+    <h1 class="title">Ícones</h1>
+
+    <!-- Messages -->
+    <p class="message">Os ícones são parte fundamental de qualquer projeto, com a fover você pode adicionar vários icones com uma única linha de código</p>
+    <p class="message">Para usar os icones basta utilizar o prefixo 'fover' + o nome do icone: Exemplo à baixo</p>
+
+    <!-- Icones -->
+    <div class="container-icon">
+        <i class="fover-eye"></i>
+        <p>eye</p>
+    </div>
+
+    <!-- Code example -->
+    <fover-editor
+        [code]="code">
+    </fover-editor>
+
+    <!-- Examples -->
+    <div class="container-examples">
+        <ng-container *ngFor="let item of listIcons">
+            <div class="container-icon">
+                <i [class]="'fover-' + item"></i>
+                <p>{{item}}</p>
+            </div>
+        </ng-container>
+    </div>
+</div>

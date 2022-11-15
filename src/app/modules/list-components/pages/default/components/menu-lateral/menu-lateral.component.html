@@ -1,23 +1,38 @@
 <nav class="container-menu">
     
-    <!-- Title -->
-    <h2 class="title">Componentes</h2>
-
-    <!-- Itens -->
-    <div class="container-itens-components">
-
-        <!-- Buttons -->
-        <div 
-            [routerLink]="'/list-components/buttons'"
-            [routerLinkActive]="'active'"
-            class="item">button
+    <!-- Icones -->
+    <div class="container-item">
+        <div class="container-itens-components">
+            <div 
+                [routerLink]="'/list-components/icons'"
+                [routerLinkActive]="'active'"
+                class="item">Icones
+            </div>
         </div>
+    </div>
+
+    <!-- Componentes -->
+    <div class="container-item">
         
-        <!-- Inputs -->
-        <div 
-            [routerLink]="'/list-components/inputs'"
-            [routerLinkActive]="'active'"
-            class="item">inputs
+        <!-- Title -->
+        <h2 class="title">Componentes</h2>
+
+        <!-- Itens -->
+        <div class="container-itens-components">
+
+            <!-- Buttons -->
+            <div 
+                [routerLink]="'/list-components/buttons'"
+                [routerLinkActive]="'active'"
+                class="item">button
+            </div>
+            
+            <!-- Inputs -->
+            <div 
+                [routerLink]="'/list-components/inputs'"
+                [routerLinkActive]="'active'"
+                class="item">inputs
+            </div>
         </div>
     </div>
 </nav>
