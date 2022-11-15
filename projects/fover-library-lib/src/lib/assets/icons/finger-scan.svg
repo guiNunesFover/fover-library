@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_finger-scan" data-name="vuesax/outline/finger-scan" transform="translate(-556 -252)">
+    <g id="finger-scan">
+      <path id="Vector" d="M2.4,7.27A2.407,2.407,0,0,1,0,4.87V2.4a2.4,2.4,0,1,1,4.8,0V4.87A2.4,2.4,0,0,1,2.4,7.27Zm0-5.76a.9.9,0,0,0-.9.9V4.88a.9.9,0,1,0,1.8,0V2.41A.9.9,0,0,0,2.4,1.51Z" transform="translate(565.6 260.36)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M5.75,13.64A5.757,5.757,0,0,1,0,7.89V5.75a5.75,5.75,0,0,1,11.47-.59.749.749,0,0,1-1.49.15,4.251,4.251,0,0,0-8.48.44V7.89a4.252,4.252,0,0,0,8.49.34.752.752,0,1,1,1.5.12A5.784,5.784,0,0,1,5.75,13.64Z" transform="translate(562.25 257.18)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M7.75,8.5A.755.755,0,0,1,7,7.75v-2A3.984,3.984,0,0,0,2.75,1.5h-2A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h2A5.443,5.443,0,0,1,8.5,5.75v2A.755.755,0,0,1,7.75,8.5Z" transform="translate(570.25 253.25)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,8.5A.755.755,0,0,1,0,7.75v-2A5.443,5.443,0,0,1,5.75,0h2A.755.755,0,0,1,8.5.75a.755.755,0,0,1-.75.75h-2A3.984,3.984,0,0,0,1.5,5.75v2A.755.755,0,0,1,.75,8.5Z" transform="translate(557.25 253.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M2.75,8.5h-2A.75.75,0,0,1,.75,7h2A3.984,3.984,0,0,0,7,2.75v-2a.75.75,0,0,1,1.5,0v2A5.443,5.443,0,0,1,2.75,8.5Z" transform="translate(570.25 266.25)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M7.75,8.5h-2A5.443,5.443,0,0,1,0,2.75v-2A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v2A3.984,3.984,0,0,0,5.75,7h2a.75.75,0,0,1,0,1.5Z" transform="translate(557.25 266.25)" fill="#292d32"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(580 276) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

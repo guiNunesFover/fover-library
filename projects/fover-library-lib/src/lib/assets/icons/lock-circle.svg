@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_lock-circle" data-name="vuesax/outline/lock-circle" transform="translate(-172 -316)">
+    <g id="lock-circle">
+      <path id="Vector" d="M6.75,5.5A.755.755,0,0,1,6,4.75v-1C6,2.29,5.64,1.5,3.75,1.5S1.5,2.29,1.5,3.75v1a.755.755,0,0,1-.75.75A.755.755,0,0,1,0,4.75v-1C0,2.82,0,0,3.75,0S7.5,2.82,7.5,3.75v1A.755.755,0,0,1,6.75,5.5Z" transform="translate(180.25 322.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M1.35,2.7A1.357,1.357,0,0,1,0,1.35,1.357,1.357,0,0,1,1.35,0,1.357,1.357,0,0,1,2.7,1.35,1.357,1.357,0,0,1,1.35,2.7Zm0-1.5a.154.154,0,0,0-.15.15c0,.17.3.17.3,0A.154.154,0,0,0,1.35,1.2Z" transform="translate(182.65 328.65)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M8.25,7.5h-5C.85,7.5,0,6.65,0,4.25v-1C0,.85.85,0,3.25,0h5c2.4,0,3.25.85,3.25,3.25v1C11.5,6.65,10.65,7.5,8.25,7.5Zm-5-6c-1.59,0-1.75.16-1.75,1.75v1C1.5,5.84,1.66,6,3.25,6h5C9.84,6,10,5.84,10,4.25v-1C10,1.66,9.84,1.5,8.25,1.5Z" transform="translate(178.25 326.25)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(173.25 317.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(172 316)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

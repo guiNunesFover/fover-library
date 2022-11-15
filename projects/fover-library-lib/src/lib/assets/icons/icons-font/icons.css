@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?4ab30f1626e54814f0ac6b1c7317f55b#iefix") format("embedded-opentype"),
-url("./icons.woff2?4ab30f1626e54814f0ac6b1c7317f55b") format("woff2"),
-url("./icons.woff?4ab30f1626e54814f0ac6b1c7317f55b") format("woff");
+    src: url("./icons.eot?7de5912b76326cb78bc112a346397b19#iefix") format("embedded-opentype"),
+url("./icons.woff2?7de5912b76326cb78bc112a346397b19") format("woff2"),
+url("./icons.woff?7de5912b76326cb78bc112a346397b19") format("woff");
 }
 
 i[class^="fover-"]:before, i[class*=" fover-"]:before {
@@ -16,234 +16,318 @@ i[class^="fover-"]:before, i[class*=" fover-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.fover-archive:before {
+.fover-alarm:before {
     content: "\f101";
 }
-.fover-card-add:before {
+.fover-archive:before {
     content: "\f102";
 }
-.fover-card-edit:before {
+.fover-card-add:before {
     content: "\f103";
 }
-.fover-card-pos:before {
+.fover-card-edit:before {
     content: "\f104";
 }
-.fover-card-receive:before {
+.fover-card-pos:before {
     content: "\f105";
 }
-.fover-card-remove-2:before {
+.fover-card-receive:before {
     content: "\f106";
 }
-.fover-card-remove:before {
+.fover-card-remove-2:before {
     content: "\f107";
 }
-.fover-card-send:before {
+.fover-card-remove:before {
     content: "\f108";
 }
-.fover-card-slash:before {
+.fover-card-send:before {
     content: "\f109";
 }
-.fover-card-tick-2:before {
+.fover-card-slash:before {
     content: "\f10a";
 }
-.fover-card-tick:before {
+.fover-card-tick-2:before {
     content: "\f10b";
 }
-.fover-card:before {
+.fover-card-tick:before {
     content: "\f10c";
 }
-.fover-cards:before {
+.fover-card:before {
     content: "\f10d";
 }
-.fover-chart-square:before {
+.fover-cards:before {
     content: "\f10e";
 }
-.fover-coin-2:before {
+.fover-chart-square:before {
     content: "\f10f";
 }
-.fover-coin:before {
+.fover-check:before {
     content: "\f110";
 }
-.fover-convert-card:before {
+.fover-coin-2:before {
     content: "\f111";
 }
-.fover-discount-circle:before {
+.fover-coin:before {
     content: "\f112";
 }
-.fover-discount-shape:before {
+.fover-convert-card:before {
     content: "\f113";
 }
-.fover-document:before {
+.fover-discount-circle:before {
     content: "\f114";
 }
-.fover-dollar-circle:before {
+.fover-discount-shape:before {
     content: "\f115";
 }
-.fover-dollar-square:before {
+.fover-document:before {
     content: "\f116";
 }
-.fover-empty-wallet-add:before {
+.fover-dollar-circle:before {
     content: "\f117";
 }
-.fover-empty-wallet-change:before {
+.fover-dollar-square:before {
     content: "\f118";
 }
-.fover-empty-wallet-remove:before {
+.fover-empty-wallet-add:before {
     content: "\f119";
 }
-.fover-empty-wallet-tick:before {
+.fover-empty-wallet-change:before {
     content: "\f11a";
 }
-.fover-empty-wallet-time:before {
+.fover-empty-wallet-remove:before {
     content: "\f11b";
 }
-.fover-empty-wallet:before {
+.fover-empty-wallet-tick:before {
     content: "\f11c";
 }
-.fover-math:before {
+.fover-empty-wallet-time:before {
     content: "\f11d";
 }
-.fover-money-2:before {
+.fover-empty-wallet:before {
     content: "\f11e";
 }
-.fover-money-3:before {
+.fover-eye-slash:before {
     content: "\f11f";
 }
-.fover-money-4:before {
+.fover-eye:before {
     content: "\f120";
 }
-.fover-money-add:before {
+.fover-finger-cricle:before {
     content: "\f121";
 }
-.fover-money-change:before {
+.fover-finger-scan:before {
     content: "\f122";
 }
-.fover-money-forbidden:before {
+.fover-frame:before {
     content: "\f123";
 }
-.fover-money-recive:before {
+.fover-key-square:before {
     content: "\f124";
 }
-.fover-money-remove:before {
+.fover-key:before {
     content: "\f125";
 }
-.fover-money-send:before {
+.fover-lock-2:before {
     content: "\f126";
 }
-.fover-money-tick:before {
+.fover-lock-circle:before {
     content: "\f127";
 }
-.fover-money-time:before {
+.fover-lock-slash:before {
     content: "\f128";
 }
-.fover-money:before {
+.fover-lock:before {
     content: "\f129";
 }
-.fover-moneys:before {
+.fover-math:before {
     content: "\f12a";
 }
-.fover-percentage-circle:before {
+.fover-money-2:before {
     content: "\f12b";
 }
-.fover-percentage-square:before {
+.fover-money-3:before {
     content: "\f12c";
 }
-.fover-receipt-2:before {
+.fover-money-4:before {
     content: "\f12d";
 }
-.fover-receipt-3:before {
+.fover-money-add:before {
     content: "\f12e";
 }
-.fover-receipt-4:before {
+.fover-money-change:before {
     content: "\f12f";
 }
-.fover-receipt-add:before {
+.fover-money-forbidden:before {
     content: "\f130";
 }
-.fover-receipt-discount:before {
+.fover-money-recive:before {
     content: "\f131";
 }
-.fover-receipt-disscount:before {
+.fover-money-remove:before {
     content: "\f132";
 }
-.fover-receipt-edit:before {
+.fover-money-send:before {
     content: "\f133";
 }
-.fover-receipt-item:before {
+.fover-money-tick:before {
     content: "\f134";
 }
-.fover-receipt-minus:before {
+.fover-money-time:before {
     content: "\f135";
 }
-.fover-receipt-search:before {
+.fover-money:before {
     content: "\f136";
 }
-.fover-receipt-text:before {
+.fover-moneys:before {
     content: "\f137";
 }
-.fover-receipt:before {
+.fover-password-check:before {
     content: "\f138";
 }
-.fover-security-card:before {
+.fover-percentage-circle:before {
     content: "\f139";
 }
-.fover-strongbox-2:before {
+.fover-percentage-square:before {
     content: "\f13a";
 }
-.fover-strongbox:before {
+.fover-radar:before {
     content: "\f13b";
 }
-.fover-tag-2:before {
+.fover-receipt-2:before {
     content: "\f13c";
 }
-.fover-tag:before {
+.fover-receipt-3:before {
     content: "\f13d";
 }
-.fover-ticket-2:before {
+.fover-receipt-4:before {
     content: "\f13e";
 }
-.fover-ticket-discount:before {
+.fover-receipt-add:before {
     content: "\f13f";
 }
-.fover-ticket-expired:before {
+.fover-receipt-discount:before {
     content: "\f140";
 }
-.fover-ticket-star:before {
+.fover-receipt-disscount:before {
     content: "\f141";
 }
-.fover-ticket:before {
+.fover-receipt-edit:before {
     content: "\f142";
 }
-.fover-transaction-minus:before {
+.fover-receipt-item:before {
     content: "\f143";
 }
-.fover-wallet-2:before {
+.fover-receipt-minus:before {
     content: "\f144";
 }
-.fover-wallet-3:before {
+.fover-receipt-search:before {
     content: "\f145";
 }
-.fover-wallet-4:before {
+.fover-receipt-text:before {
     content: "\f146";
 }
-.fover-wallet-add-2:before {
+.fover-receipt:before {
     content: "\f147";
 }
-.fover-wallet-add:before {
+.fover-scan-barcode:before {
     content: "\f148";
 }
-.fover-wallet-check:before {
+.fover-scan:before {
     content: "\f149";
 }
-.fover-wallet-money:before {
+.fover-scanner:before {
     content: "\f14a";
 }
-.fover-wallet-remove:before {
+.fover-scanning:before {
     content: "\f14b";
 }
-.fover-wallet-search:before {
+.fover-security-card:before {
     content: "\f14c";
 }
-.fover-wallet:before {
+.fover-security-safe:before {
     content: "\f14d";
+}
+.fover-security-user:before {
+    content: "\f14e";
+}
+.fover-security:before {
+    content: "\f14f";
+}
+.fover-shield-cross:before {
+    content: "\f150";
+}
+.fover-shield-search:before {
+    content: "\f151";
+}
+.fover-shield-slash:before {
+    content: "\f152";
+}
+.fover-shield-tick:before {
+    content: "\f153";
+}
+.fover-shield:before {
+    content: "\f154";
+}
+.fover-strongbox-2:before {
+    content: "\f155";
+}
+.fover-strongbox:before {
+    content: "\f156";
+}
+.fover-tag-2:before {
+    content: "\f157";
+}
+.fover-tag:before {
+    content: "\f158";
+}
+.fover-ticket-2:before {
+    content: "\f159";
+}
+.fover-ticket-discount:before {
+    content: "\f15a";
+}
+.fover-ticket-expired:before {
+    content: "\f15b";
+}
+.fover-ticket-star:before {
+    content: "\f15c";
+}
+.fover-ticket:before {
+    content: "\f15d";
+}
+.fover-transaction-minus:before {
+    content: "\f15e";
+}
+.fover-unlock:before {
+    content: "\f15f";
+}
+.fover-wallet-2:before {
+    content: "\f160";
+}
+.fover-wallet-3:before {
+    content: "\f161";
+}
+.fover-wallet-4:before {
+    content: "\f162";
+}
+.fover-wallet-add-2:before {
+    content: "\f163";
+}
+.fover-wallet-add:before {
+    content: "\f164";
+}
+.fover-wallet-check:before {
+    content: "\f165";
+}
+.fover-wallet-money:before {
+    content: "\f166";
+}
+.fover-wallet-remove:before {
+    content: "\f167";
+}
+.fover-wallet-search:before {
+    content: "\f168";
+}
+.fover-wallet:before {
+    content: "\f169";
 }

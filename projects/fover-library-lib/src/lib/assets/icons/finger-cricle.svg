@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_finger-cricle" data-name="vuesax/outline/finger-cricle" transform="translate(-620 -252)">
+    <g id="finger-cricle">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(621.25 253.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M2.4,7.27A2.407,2.407,0,0,1,0,4.87V2.4a2.4,2.4,0,1,1,4.8,0V4.87A2.4,2.4,0,0,1,2.4,7.27Zm0-5.76a.9.9,0,0,0-.9.9V4.88a.9.9,0,1,0,1.8,0V2.41A.9.9,0,0,0,2.4,1.51Z" transform="translate(629.6 260.36)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M5.75,13.64A5.757,5.757,0,0,1,0,7.89V5.75a5.75,5.75,0,0,1,11.47-.59.749.749,0,0,1-1.49.15,4.251,4.251,0,0,0-8.48.44V7.89a4.252,4.252,0,0,0,8.49.34.752.752,0,1,1,1.5.12A5.784,5.784,0,0,1,5.75,13.64Z" transform="translate(626.25 257.18)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(644 276) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
