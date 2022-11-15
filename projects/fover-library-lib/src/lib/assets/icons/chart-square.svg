@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_chart-square" data-name="vuesax/outline/chart-square" transform="translate(-748 -252)">
+    <g id="chart-square">
+      <path id="Vector" d="M4.54,7.76H.75A.755.755,0,0,1,0,7.01V1.89A1.9,1.9,0,0,1,1.89,0H4.54a.755.755,0,0,1,.75.75V7A.758.758,0,0,1,4.54,7.76ZM1.5,6.26H3.79V1.51H1.89a.39.39,0,0,0-.39.39V6.26Z" transform="translate(753.57 262.39)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M4.54,12.3H.75A.755.755,0,0,1,0,11.55V1.89A1.9,1.9,0,0,1,1.89,0H3.41A1.9,1.9,0,0,1,5.3,1.89v9.66A.764.764,0,0,1,4.54,12.3ZM1.51,10.8H3.8V1.89a.39.39,0,0,0-.39-.39H1.89a.39.39,0,0,0-.39.39V10.8Z" transform="translate(757.35 257.85)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M4.54,6.05H.75A.755.755,0,0,1,0,5.3V.75A.755.755,0,0,1,.75,0H3.4A1.9,1.9,0,0,1,5.29,1.89V5.3A.749.749,0,0,1,4.54,6.05ZM1.5,4.55H3.79V1.89A.39.39,0,0,0,3.4,1.5H1.5V4.55Z" transform="translate(761.14 264.1)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(749.25 253.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(748 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
