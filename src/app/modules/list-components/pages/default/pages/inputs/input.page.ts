@@ -12,12 +12,14 @@ export class InputPage implements OnInit
     public codeSimple: string;
     public codeWithLabel: string;
     public codeIconRight: string;
+    public codePassword: string;
 
     constructor(private _formBuilder: FormBuilder) 
     {
         this.codeSimple = require('html-loader!./examples/simple.html').default;
         this.codeWithLabel = require('html-loader!./examples/with-label.html').default;
         this.codeIconRight = require('html-loader!./examples/icon-right.html').default;
+        this.codePassword = require('html-loader!./examples/password.html').default;
     }
 
     ngOnInit(): void 
@@ -29,6 +31,7 @@ export class InputPage implements OnInit
     {
         this.formGroup = this._formBuilder.group({
             email: new FormControl(),
+            password: new FormControl(),
         });
     }
 }
