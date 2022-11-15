@@ -1,4 +1,4 @@
-<div class="container-page">
+<div class="container-page" [formGroup]="formGroup">
 
     <!-- Title -->
     <h1 class="title">Inputs</h1>
@@ -17,27 +17,37 @@
             
             <!-- xl -->
             <fover-input [height]="'xl'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- l -->
             <fover-input [height]="'l'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- default -->
             <fover-input>
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- Small -->
             <fover-input [height]="'small'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
             
             <!-- Mini -->
             <fover-input [height]="'mini'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
         </div>
     
@@ -58,27 +68,37 @@
             
             <!-- xl -->
             <fover-input [height]="'xl'" [label]="'Label teste'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- l -->
             <fover-input [height]="'l'" [label]="'Label teste'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- default -->
             <fover-input [label]="'Label teste'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
 
             <!-- Small -->
             <fover-input [height]="'small'" [label]="'Label teste'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
             
             <!-- Mini -->
             <fover-input [height]="'mini'" [label]="'Label teste'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
             </fover-input>
         </div>
     
@@ -101,7 +121,34 @@
             <fover-input 
                 [label]="'Label teste'"
                 [iconRight]="'fover-eye'">
-                <input placeholder="Digite aqui..." />
+                <input 
+                    formControlName="email"
+                    placeholder="Digite aqui..."  />
+            </fover-input>
+        </div>
+    
+        <!-- Code example -->
+        <fover-editor
+            [code]="codeIconRight">
+        </fover-editor>
+    </ng-container>
+
+    <!-- Inputs de senhas -->
+    <ng-container>
+        
+        <!-- Sub Title -->
+        <h1 class="sub-title">Inputs de senhas</h1>
+    
+        <!-- Examples -->
+        <div class="container-examples">
+
+            <!-- default -->
+            <fover-input 
+                [label]="'Label teste'">
+                <input 
+                    #isPassword
+                    formControlName="email"
+                    placeholder="Digite aqui..." />
             </fover-input>
         </div>
     
