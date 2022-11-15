@@ -12,10 +12,12 @@ export class FoverInputComponent implements AfterViewInit, AfterContentInit
     @Input() height: 'xl' | 'l' | 'default' | 'small' | 'mini' = 'default';
     @Input() label: string;
     @Input() iconRight: string;
+    @Input() iconLeft: string;
     @Input() errorMessage: string;
     @ContentChild(FormControlName) control: FormControlName;
     @ContentChild('isPassword') child: ElementRef;
     @Output() iconRightClick = new EventEmitter();
+    @Output() iconLeftClick = new EventEmitter();
     public input: FormControlName;
     
     ngAfterViewInit(): void 
@@ -58,5 +60,10 @@ export class FoverInputComponent implements AfterViewInit, AfterContentInit
             }
         }
         else this.iconRightClick.emit();
+    }
+
+    public clickIconLeft(): void
+    {
+        this.iconLeftClick.emit();
     }
 }

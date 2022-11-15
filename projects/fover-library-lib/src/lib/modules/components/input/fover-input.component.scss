@@ -51,7 +51,7 @@
 
             i
             {
-                &.icon-right
+                &.icon-right, &.icon-left
                 {
                     bottom: 21px;
                 }
@@ -71,7 +71,7 @@
 
             i
             {
-                &.icon-right
+                &.icon-right, &.icon-left
                 {
                     bottom: 17px;
                 }
@@ -91,7 +91,7 @@
 
             i
             {
-                &.icon-right
+                &.icon-right, &.icon-left
                 {
                     bottom: 13px;
                 }
@@ -111,7 +111,7 @@
 
             i
             {
-                &.icon-right
+                &.icon-right, &.icon-left
                 {
                     bottom: 11px;
                 }
@@ -131,7 +131,7 @@
 
             i
             {
-                &.icon-right
+                &.icon-right, &.icon-left
                 {
                     bottom: 9px;
                 }
@@ -150,6 +150,13 @@
         }
     }
 
+    @mixin iconDefault 
+    {
+        position: absolute;
+        height: 19px;
+        font-size: 21px;
+    }
+
     &.icon-right
     {
         ::ng-deep
@@ -157,7 +164,6 @@
             input
             {
                 padding-right: 34px;
-                box-sizing: border-box;        
             }
         }
 
@@ -165,10 +171,29 @@
         {
             &.icon-right
             {
-                position: absolute;
+                @include iconDefault();
                 right: 8px;
-                height: 19px;
-                font-size: 21px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &.icon-left
+    {
+        ::ng-deep
+        {
+            input
+            {
+                padding-left: 34px;
+            }
+        }
+
+        i
+        {
+            &.icon-left
+            {
+                @include iconDefault();
+                left: 8px;
                 cursor: pointer;
             }
         }
