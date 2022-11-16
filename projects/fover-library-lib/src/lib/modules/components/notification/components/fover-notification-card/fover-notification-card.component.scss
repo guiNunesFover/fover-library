@@ -1,0 +1,166 @@
+@import 'src/assets/styles/main.scss';
+
+.card-snackbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 12px;
+    width: 420px;
+    z-index: 6;
+    margin: 15px 0;
+    box-shadow: $box-shadow;
+    border: solid 2px transparent;
+
+    &:first-child
+    {
+        margin-top: 0;
+    }
+
+    &.error
+    {
+        background-color: var(--error);
+    }
+
+    &.Success
+    {
+        border-color: var(--notification-success-100);
+    }
+
+    &.Info
+    {
+        border-color: var(--notification-info-100);
+    }
+
+    &.Warning
+    {
+        border-color: var(--notification-warning-100);
+    }
+
+    .container-icon-status
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px 0 0 12px;
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        margin: 0 12px;
+
+        &.Success
+        {
+            background-color: var(--notification-success-light-100);
+        }
+
+        &.Info
+        {
+            background-color: var(--notification-info-light-100);
+        }
+
+        &.Error
+        {
+            background-color: red;
+        }
+
+        &.Warning
+        {
+            background-color: var(--notification-warning-light-100);
+        }
+
+        .container-internal-icon
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 23px;
+            width: 23px;
+            border-radius: 20px;
+            color: var(--notification-font-300);
+
+            .icon
+            {
+                font-size: 10px;
+                height: 10px;
+            }
+    
+            &.Success
+            {
+                background-color: var(--notification-success-100);
+            }
+    
+            &.Info
+            {
+                background-color: var(--notification-info-100);
+            }
+    
+            &.Error
+            {
+                background-color: var(--notification-danger-100);
+            }
+    
+            &.Warning
+            {
+                background-color: var(--notification-warning-100);
+            }
+        }
+    }
+
+    .container-messages
+    {
+        margin: 16px 0;
+
+        .title
+        {
+            font-size: 14px;
+            color: var(--notification-font-100);
+        }
+    
+        .message
+        {
+            font-size: 12px;
+            margin-bottom: 4px;
+
+            &:last-child
+            {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .container-progress-bar
+    {
+        width: calc(100% - 6px);
+        position: absolute;
+        top: -1px;
+
+        .bar-line
+        {
+            padding: 3px;
+            border-radius: 0px 0px 4px 4px;
+            border-radius: 50px 50px 50px 0;
+
+            &.Success
+            {
+                background-color: var(--notification-success-light-100);
+            }
+            
+            &.Info
+            {
+                background-color: var(--notification-info-light-100);
+            }
+    
+            &.Error
+            {
+                background-color: var(--notification-danger-light-100);
+            }
+    
+            &.Warning
+            {
+                background-color: var(--notification-warning-light-100);
+            }
+        }
+    }
+}

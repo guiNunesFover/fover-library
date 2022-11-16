@@ -1,0 +1,9 @@
+@import 'src/assets/styles/main.scss';
+
+.list-cards
+{
+    position: fixed;
+    right: 15px;
+    bottom: calc(50px + 16px);
+    z-index: 7;
+}

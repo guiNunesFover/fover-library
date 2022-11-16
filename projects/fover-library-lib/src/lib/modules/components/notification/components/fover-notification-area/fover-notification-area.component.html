@@ -1,0 +1,10 @@
+<div class="list-cards">
+    <ng-container *ngFor="let item of listNotifications">
+        <fover-notification-card
+            [item]="item"
+            [durationSecond]="durationSecond"
+            (close)="closeCard($event)">
+        </fover-notification-card>
+    </ng-container>
+</div>
+

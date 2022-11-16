@@ -15,7 +15,7 @@ export const lightTheme: Theme =
         '--placeholder': '#808289',
         
         '--primary': '#0071FF',
-        '--error': '#FE1016',
+        '--error': '#f2135d',
         '--warning': '#ffba00',
         '--warning-font': '#cc9500',
         '--warning-background': '#ffba0017',

@@ -1,0 +1,38 @@
+<div 
+    #card
+    class="card-snackbar" 
+    [@fade]="item.stateVisible"
+    [ngClass]="item.status"
+    (mouseenter)="fadeStopCard()"
+    (mouseleave)="fadeStopCard()">
+
+    <!-- container item -->
+    <div class="container-icon-status" [ngClass]="item.status">
+        <div class="container-internal-icon" [ngClass]="item.status">
+            <i *ngIf="item.status == 'error'" class="icon fover-close"></i>
+            <i *ngIf="item.status == 'success'" class="icon fover-check"></i>
+            <i *ngIf="item.status == 'info'" class="icon fover-info"></i>
+            <i *ngIf="item.status == 'warning'" class="icon fover-danger"></i>
+        </div>
+    </div>
+
+    <!-- Messages -->
+    <div class="container-messages">
+        
+        <!-- Title -->
+        <p class="title">{{item.title}}</p>
+        
+        <!-- Message -->
+        <ng-container *ngFor="let message of item.message; let index = index;">
+            <p class="message">
+                <span *ngIf="item.message.length > 1">{{ index + 1 }}- </span>
+                <span #message>{{ message }}</span>
+            </p>
+        </ng-container>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="container-progress-bar">
+        <div class="bar-line" [ngStyle]="barLineStype" [ngClass]="item.status"></div>
+    </div>
+</div>

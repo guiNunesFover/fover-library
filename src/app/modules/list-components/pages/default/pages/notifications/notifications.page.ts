@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FoverNotificationService } from 'projects/fover-library-lib/src/public-api';
 
 @Component({
     selector: 'notifications',
@@ -10,5 +11,9 @@ export class NotificationPage
     public codeDefault: string;
     public showCodeDefault: boolean;
 
-    public copyCodeDefault(): void {}
+    constructor(private _foverNotificationService: FoverNotificationService) {}
+
+    public copyCodeDefault(): void {
+        this._foverNotificationService.danger(["teste"]);
+    }
 }
