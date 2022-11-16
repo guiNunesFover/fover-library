@@ -10,6 +10,11 @@ export class FoverEditorComponent
     @Input() editorOptions = {
         theme: 'vs-dark', 
         language: 'html',
+        readOnly: true,
+        scrollBeyondLastLine: false,
+        minimap: {
+            enabled: false
+        },
     };
     @Input() code: string = "Digite o código que vai aparecer na tela";
 }

@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AlertPage 
 {
     public codeDefault: string;
+    public showCodeDefault: boolean;
 
     constructor() 
     {

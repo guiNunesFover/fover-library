@@ -22,7 +22,18 @@
         <!-- Options itens -->
         <div class="container-options-itens">
             <i class="icon-options fover-document-copy"></i>
-            <i class="icon-options fover-eye"></i>
+            <i 
+                class="icon-options"
+                [class.fover-eye]="showCodeDefault"
+                [class.fover-eye-slash]="!showCodeDefault"
+                (click)="showCodeDefault = !showCodeDefault">
+            </i>
         </div>
+
+        <!-- Codes -->
+        <fover-editor
+            *ngIf="showCodeDefault"
+            [code]="codeDefault">
+        </fover-editor>
     </div>
 </div>
