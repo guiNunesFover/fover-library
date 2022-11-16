@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_more-circle" data-name="vuesax/outline/more-circle" transform="translate(-300 -252)">
+    <g id="more-circle">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(301.25 253.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(311 263)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(315 263)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(307 263)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(300 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_chrome" data-name="vuesax/outline/chrome" transform="translate(-236 -444)">
+    <g id="chrome">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(237.25 445.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M4.75,9.5A4.75,4.75,0,1,1,9.5,4.75,4.754,4.754,0,0,1,4.75,9.5Zm0-8A3.25,3.25,0,1,0,8,4.75,3.256,3.256,0,0,0,4.75,1.5Z" transform="translate(243.25 451.25)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M9.918,2a.875.875,0,0,1-.16-.02,20.636,20.636,0,0,0-8.85,0A.747.747,0,0,1,.588.517a22.012,22.012,0,0,1,9.49,0,.751.751,0,0,1,.57.89A.739.739,0,0,1,9.918,2Z" transform="translate(247.252 450.753)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M5.28,8.93a.762.762,0,0,1-.57-.26A24.763,24.763,0,0,1,0,.55L.69.24,1.4,0l.02.06A23.2,23.2,0,0,0,5.85,7.69a.756.756,0,0,1-.07,1.06A.808.808,0,0,1,5.28,8.93Z" transform="translate(239.26 449.82)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M.747,9.384a.728.728,0,0,1-.5-.19A.746.746,0,0,1,.2,8.134,20.714,20.714,0,0,0,4.6.554a.793.793,0,0,1,.96-.52.725.725,0,0,1,.5.9,22.345,22.345,0,0,1-4.74,8.22A.846.846,0,0,1,.747,9.384Z" transform="translate(246.133 457.306)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(236 444)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

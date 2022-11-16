@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_sound" data-name="vuesax/outline/sound" transform="translate(-684 -508)">
+    <g id="sound">
+      <path id="Vector" d="M.75,9A.755.755,0,0,1,0,8.25V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v7.5A.755.755,0,0,1,.75,9Z" transform="translate(686.25 515.5)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.75,14A.755.755,0,0,1,0,13.25V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v12.5A.755.755,0,0,1,.75,14Z" transform="translate(690.75 513)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M.75,19A.755.755,0,0,1,0,18.25V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v17.5A.755.755,0,0,1,.75,19Z" transform="translate(695.25 510.5)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,14A.755.755,0,0,1,0,13.25V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v12.5A.755.755,0,0,1,.75,14Z" transform="translate(699.75 513)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M.75,9A.755.755,0,0,1,0,8.25V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v7.5A.755.755,0,0,1,.75,9Z" transform="translate(704.25 515.5)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(684 508)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

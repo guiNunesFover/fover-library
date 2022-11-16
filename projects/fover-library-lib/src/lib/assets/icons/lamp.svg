@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_lamp" data-name="vuesax/outline/lamp" transform="translate(-748 -572)">
+    <g id="lamp">
+      <path id="Vector" d="M18.31,15.16H.75A.755.755,0,0,1,0,14.41V9.47A9.483,9.483,0,0,1,9.47,0h.12a9.483,9.483,0,0,1,9.47,9.47v4.94A.755.755,0,0,1,18.31,15.16ZM1.5,13.66H17.56V9.47A7.979,7.979,0,0,0,9.59,1.5H9.47A7.979,7.979,0,0,0,1.5,9.47v4.19Z" transform="translate(750.47 576.18)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.75,4.43A.755.755,0,0,1,0,3.68V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V3.68A.755.755,0,0,1,.75,4.43Z" transform="translate(759.25 573.25)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M4.4,4.91A4.428,4.428,0,0,1,0,.8.752.752,0,0,1,.751,0h7.3A.756.756,0,0,1,8.6.24.775.775,0,0,1,8.8.8,4.428,4.428,0,0,1,4.4,4.91ZM1.671,1.5a2.906,2.906,0,0,0,5.46,0Z" transform="translate(755.599 589.84)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(748 572)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

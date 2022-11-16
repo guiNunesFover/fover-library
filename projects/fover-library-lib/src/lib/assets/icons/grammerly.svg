@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_grammerly" data-name="vuesax/outline/grammerly" transform="translate(-748 -316)">
+    <g id="grammerly">
+      <path id="Vector" d="M10.751,21.442a10.728,10.728,0,1,1,7.6-18.3,10.7,10.7,0,0,1-7.6,18.3Zm0-19.94a9.237,9.237,0,0,0-9.25,9.37,9.12,9.12,0,0,0,2.9,6.59,9.352,9.352,0,0,0,12.7,0A9.238,9.238,0,0,0,10.751,1.5Z" transform="translate(749.249 317.277)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M4.583,2.993a6.329,6.329,0,0,1-4.35-1.7A.75.75,0,1,1,1.263.2,4.9,4.9,0,0,0,7.9.2a.75.75,0,1,1,1.03,1.09A6.329,6.329,0,0,1,4.583,2.993Z" transform="translate(755.417 331.327)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(772 340) rotate(180)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

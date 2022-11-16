@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_tag-cross" data-name="vuesax/outline/tag-cross" transform="translate(-620 -380)">
+    <g id="tag-cross">
+      <path id="Vector" d="M15.76,18H9.04a5.754,5.754,0,0,1-4.25-1.88L1.26,12.24a4.783,4.783,0,0,1,0-6.47L4.79,1.89A5.727,5.727,0,0,1,9.04,0h6.72a5.757,5.757,0,0,1,5.75,5.75v6.5A5.757,5.757,0,0,1,15.76,18ZM9.04,1.5A4.264,4.264,0,0,0,5.9,2.89L2.36,6.78a3.3,3.3,0,0,0,0,4.45l3.53,3.88A4.264,4.264,0,0,0,9.03,16.5h6.73a4.259,4.259,0,0,0,4.25-4.25V5.75A4.259,4.259,0,0,0,15.76,1.5Z" transform="translate(621.24 383)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M5.688,6.448a.742.742,0,0,1-.53-.22L.218,1.278A.75.75,0,0,1,1.278.218l4.94,4.95a.754.754,0,0,1,0,1.06A.742.742,0,0,1,5.688,6.448Z" transform="translate(630.313 388.772)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M.748,6.438a.742.742,0,0,1-.53-.22.754.754,0,0,1,0-1.06L5.158.218a.75.75,0,0,1,1.06,1.06l-4.94,4.94A.742.742,0,0,1,.748,6.438Z" transform="translate(630.313 388.783)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 380)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

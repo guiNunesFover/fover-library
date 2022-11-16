@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_emoji-normal" data-name="vuesax/outline/emoji-normal" transform="translate(-492 -380)">
+    <g id="emoji-normal">
+      <path id="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(493.25 381.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M2.567,2.248a3.308,3.308,0,0,1-2.35-.97A.75.75,0,0,1,1.278.218a1.829,1.829,0,0,0,2.58,0,.75.75,0,0,1,1.06,1.06A3.35,3.35,0,0,1,2.567,2.248Z" transform="translate(498.253 387.503)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M2.568,2.248a3.308,3.308,0,0,1-2.35-.97A.75.75,0,0,1,1.278.218a1.829,1.829,0,0,0,2.58,0,.75.75,0,0,1,1.06,1.06A3.35,3.35,0,0,1,2.568,2.248Z" transform="translate(504.612 387.503)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M5.25,6.9A5.256,5.256,0,0,1,0,1.65,1.652,1.652,0,0,1,1.65,0h7.2A1.652,1.652,0,0,1,10.5,1.65,5.256,5.256,0,0,1,5.25,6.9ZM1.65,1.5a.154.154,0,0,0-.15.15,3.75,3.75,0,0,0,7.5,0,.154.154,0,0,0-.15-.15Z" transform="translate(498.75 392.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 380)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

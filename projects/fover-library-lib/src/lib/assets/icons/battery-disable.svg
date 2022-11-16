@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_battery-disable" data-name="vuesax/outline/battery-disable" transform="translate(-492 -188)">
+    <g id="battery-disable">
+      <path id="Vector" d="M.75,6.5A.75.75,0,0,1,.75,5a1.693,1.693,0,0,0,.73-.09,5.389,5.389,0,0,0,.02-.66v-2a3.051,3.051,0,0,0-.04-.68A2.7,2.7,0,0,0,.75,1.5.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0C2.83,0,3,1.02,3,2.25v2C3,5.48,2.83,6.5.75,6.5Z" transform="translate(511.75 196.75)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.751,20.5a.721.721,0,0,1-.4-.12.736.736,0,0,1-.23-1.03l12-19a.747.747,0,0,1,1.03-.23.736.736,0,0,1,.23,1.03l-12,19A.728.728,0,0,1,.751,20.5Z" transform="translate(495.249 189.754)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M4.14,15.42H4.06C.66,15.04,0,13.06,0,9.75v-4C0,1.34,1.34,0,5.75,0A.755.755,0,0,1,6.5.75a.755.755,0,0,1-.75.75c-3.57,0-4.25.68-4.25,4.25v4c0,3.32.68,3.95,2.72,4.18a.747.747,0,0,1-.08,1.49Z" transform="translate(493.25 192.25)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,15.427a.75.75,0,0,1,0-1.5c3.57,0,4.25-.68,4.25-4.25v-4c0-3.31-.68-3.95-2.71-4.18a.751.751,0,0,1-.66-.83.739.739,0,0,1,.83-.66c3.38.38,4.04,2.37,4.04,5.67v4C6.5,14.087,5.16,15.427.75,15.427Z" transform="translate(504.25 192.323)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 188)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

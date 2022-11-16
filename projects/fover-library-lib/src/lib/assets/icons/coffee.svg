@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_coffee" data-name="vuesax/outline/coffee" transform="translate(-364 -444)">
+    <g id="coffee">
+      <path id="Vector" d="M12.33,17.24H4.96A4.966,4.966,0,0,1,0,12.28V4.96A4.966,4.966,0,0,1,4.96,0h7.37a4.966,4.966,0,0,1,4.96,4.96v7.32A4.972,4.972,0,0,1,12.33,17.24ZM4.96,1.5A3.461,3.461,0,0,0,1.5,4.96v7.32a3.461,3.461,0,0,0,3.46,3.46h7.37a3.461,3.461,0,0,0,3.46-3.46V4.96A3.461,3.461,0,0,0,12.33,1.5Z" transform="translate(365.25 449.51)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.75,3.25A.755.755,0,0,1,0,2.5V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V2.5A.755.755,0,0,1,.75,3.25Z" transform="translate(368.75 445.5)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M.75,3.25A.755.755,0,0,1,0,2.5V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V2.5A.755.755,0,0,1,.75,3.25Z" transform="translate(372.75 445.5)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,3.25A.755.755,0,0,1,0,2.5V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V2.5A.755.755,0,0,1,.75,3.25Z" transform="translate(376.75 445.5)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M.75,9.92A.755.755,0,0,1,0,9.17V.75A.755.755,0,0,1,.75,0a4.96,4.96,0,0,1,0,9.92ZM1.5,1.58V8.34a3.463,3.463,0,0,0,0-6.76Z" transform="translate(381.04 452.2)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M16.26,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0H16.26a.755.755,0,0,1,.75.75A.755.755,0,0,1,16.26,1.5Z" transform="translate(365.25 455.25)" fill="#292d32"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(364 444)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

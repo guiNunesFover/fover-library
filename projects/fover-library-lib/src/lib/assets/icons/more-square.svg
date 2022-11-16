@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_more-square" data-name="vuesax/outline/more-square" transform="translate(-684 -188)">
+    <g id="more-square">
+      <path id="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(685.25 189.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(695 199)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(699 199)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M1,2A1,1,0,1,1,2,1,1,1,0,0,1,1,2Z" transform="translate(691 199)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(684 188)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

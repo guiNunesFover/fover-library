@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_slash" data-name="vuesax/outline/slash" transform="translate(-620 -316)">
+    <g id="slash">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(621.25 317.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M.748,15.5a.742.742,0,0,1-.53-.22.754.754,0,0,1,0-1.06l14-14a.75.75,0,0,1,1.06,1.06l-14,14A.742.742,0,0,1,.748,15.5Z" transform="translate(624.153 320.253)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(620 316)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

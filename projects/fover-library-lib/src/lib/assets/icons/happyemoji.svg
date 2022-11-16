@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_happyemoji" data-name="vuesax/outline/happyemoji" transform="translate(-492 -444)">
+    <g id="happyemoji">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.765,10.765,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(493.22 445.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M5.535,4a6.576,6.576,0,0,1-5.4-2.82A.742.742,0,0,1,.325.135a.742.742,0,0,1,1.04.19,5.1,5.1,0,0,0,4.17,2.18A5.072,5.072,0,0,0,9.705.325a.748.748,0,0,1,1.23.85A6.576,6.576,0,0,1,5.535,4Z" transform="translate(498.465 459.255)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 444)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

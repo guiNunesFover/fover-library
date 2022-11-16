@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_flag" data-name="vuesax/outline/flag" transform="translate(-236 -380)">
+    <g id="flag">
+      <path id="Vector" d="M.75,21.5A.755.755,0,0,1,0,20.75V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v20A.755.755,0,0,1,.75,21.5Z" transform="translate(240.4 381.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M11.95,13.5H.75a.75.75,0,0,1,0-1.5h11.2c1.09,0,1.6-.29,1.7-.54s-.05-.81-.83-1.58l-1.2-1.2a2.52,2.52,0,0,1-.82-1.8,2.773,2.773,0,0,1,.82-2.06l1.2-1.2c.74-.74.97-1.34.86-1.6S13,1.5,11.95,1.5H.75A.75.75,0,0,1,.75,0h11.2c2.19,0,2.89.91,3.12,1.45s.37,1.68-1.19,3.24l-1.2,1.2a1.305,1.305,0,0,0-.38.95,1.058,1.058,0,0,0,.34.76l1.24,1.23c1.53,1.53,1.38,2.67,1.16,3.22C14.81,12.58,14.1,13.5,11.95,13.5Z" transform="translate(240.4 383.25)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(236 380)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

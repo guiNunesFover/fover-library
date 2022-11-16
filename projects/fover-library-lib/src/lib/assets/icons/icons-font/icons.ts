@@ -1,7 +1,16 @@
 export type IconsId =
+  | "add-circle"
+  | "add-square"
+  | "add"
   | "alarm"
   | "archive-book"
   | "archive"
+  | "battery-2"
+  | "battery-charging"
+  | "battery-disable"
+  | "battery-empty-2"
+  | "battery-empty"
+  | "battery-full"
   | "bill"
   | "card-add"
   | "card-edit"
@@ -22,6 +31,7 @@ export type IconsId =
   | "clipboard-import"
   | "clipboard-text"
   | "clipboard-tick"
+  | "close-circle"
   | "code-2"
   | "code-circle"
   | "code"
@@ -32,6 +42,7 @@ export type IconsId =
   | "convert-card"
   | "copyright"
   | "creative-commons"
+  | "danger"
   | "data-2"
   | "data"
   | "discount-circle"
@@ -77,6 +88,9 @@ export type IconsId =
   | "hierarchy-square-3"
   | "hierarchy-square"
   | "hierarchy"
+  | "home-2"
+  | "home"
+  | "info-circle"
   | "key-square"
   | "key"
   | "lock-2"
@@ -86,6 +100,9 @@ export type IconsId =
   | "math"
   | "menu-board"
   | "message-programming"
+  | "minus-cirlce"
+  | "minus-square"
+  | "minus"
   | "mobile-programming"
   | "money-2"
   | "money-3"
@@ -100,6 +117,8 @@ export type IconsId =
   | "money-time"
   | "money"
   | "moneys"
+  | "more-circle"
+  | "more-square"
   | "note-2"
   | "note-add"
   | "note-favorite"
@@ -149,12 +168,15 @@ export type IconsId =
   | "tag"
   | "task-square"
   | "task"
+  | "tick-circle"
+  | "tick-square"
   | "ticket-2"
   | "ticket-discount"
   | "ticket-expired"
   | "ticket-star"
   | "ticket"
   | "transaction-minus"
+  | "trash"
   | "unlock"
   | "wallet-2"
   | "wallet-3"
@@ -168,9 +190,18 @@ export type IconsId =
   | "wallet";
 
 export type IconsKey =
+  | "AddCircle"
+  | "AddSquare"
+  | "Add"
   | "Alarm"
   | "ArchiveBook"
   | "Archive"
+  | "Battery_2"
+  | "BatteryCharging"
+  | "BatteryDisable"
+  | "BatteryEmpty_2"
+  | "BatteryEmpty"
+  | "BatteryFull"
   | "Bill"
   | "CardAdd"
   | "CardEdit"
@@ -191,6 +222,7 @@ export type IconsKey =
   | "ClipboardImport"
   | "ClipboardText"
   | "ClipboardTick"
+  | "CloseCircle"
   | "Code_2"
   | "CodeCircle"
   | "Code"
@@ -201,6 +233,7 @@ export type IconsKey =
   | "ConvertCard"
   | "Copyright"
   | "CreativeCommons"
+  | "Danger"
   | "Data_2"
   | "Data"
   | "DiscountCircle"
@@ -246,6 +279,9 @@ export type IconsKey =
   | "HierarchySquare_3"
   | "HierarchySquare"
   | "Hierarchy"
+  | "Home_2"
+  | "Home"
+  | "InfoCircle"
   | "KeySquare"
   | "Key"
   | "Lock_2"
@@ -255,6 +291,9 @@ export type IconsKey =
   | "Math"
   | "MenuBoard"
   | "MessageProgramming"
+  | "MinusCirlce"
+  | "MinusSquare"
+  | "Minus"
   | "MobileProgramming"
   | "Money_2"
   | "Money_3"
@@ -269,6 +308,8 @@ export type IconsKey =
   | "MoneyTime"
   | "Money"
   | "Moneys"
+  | "MoreCircle"
+  | "MoreSquare"
   | "Note_2"
   | "NoteAdd"
   | "NoteFavorite"
@@ -318,12 +359,15 @@ export type IconsKey =
   | "Tag"
   | "TaskSquare"
   | "Task"
+  | "TickCircle"
+  | "TickSquare"
   | "Ticket_2"
   | "TicketDiscount"
   | "TicketExpired"
   | "TicketStar"
   | "Ticket"
   | "TransactionMinus"
+  | "Trash"
   | "Unlock"
   | "Wallet_2"
   | "Wallet_3"
@@ -337,9 +381,18 @@ export type IconsKey =
   | "Wallet";
 
 export enum Icons {
+  AddCircle = "add-circle",
+  AddSquare = "add-square",
+  Add = "add",
   Alarm = "alarm",
   ArchiveBook = "archive-book",
   Archive = "archive",
+  Battery_2 = "battery-2",
+  BatteryCharging = "battery-charging",
+  BatteryDisable = "battery-disable",
+  BatteryEmpty_2 = "battery-empty-2",
+  BatteryEmpty = "battery-empty",
+  BatteryFull = "battery-full",
   Bill = "bill",
   CardAdd = "card-add",
   CardEdit = "card-edit",
@@ -360,6 +413,7 @@ export enum Icons {
   ClipboardImport = "clipboard-import",
   ClipboardText = "clipboard-text",
   ClipboardTick = "clipboard-tick",
+  CloseCircle = "close-circle",
   Code_2 = "code-2",
   CodeCircle = "code-circle",
   Code = "code",
@@ -370,6 +424,7 @@ export enum Icons {
   ConvertCard = "convert-card",
   Copyright = "copyright",
   CreativeCommons = "creative-commons",
+  Danger = "danger",
   Data_2 = "data-2",
   Data = "data",
   DiscountCircle = "discount-circle",
@@ -415,6 +470,9 @@ export enum Icons {
   HierarchySquare_3 = "hierarchy-square-3",
   HierarchySquare = "hierarchy-square",
   Hierarchy = "hierarchy",
+  Home_2 = "home-2",
+  Home = "home",
+  InfoCircle = "info-circle",
   KeySquare = "key-square",
   Key = "key",
   Lock_2 = "lock-2",
@@ -424,6 +482,9 @@ export enum Icons {
   Math = "math",
   MenuBoard = "menu-board",
   MessageProgramming = "message-programming",
+  MinusCirlce = "minus-cirlce",
+  MinusSquare = "minus-square",
+  Minus = "minus",
   MobileProgramming = "mobile-programming",
   Money_2 = "money-2",
   Money_3 = "money-3",
@@ -438,6 +499,8 @@ export enum Icons {
   MoneyTime = "money-time",
   Money = "money",
   Moneys = "moneys",
+  MoreCircle = "more-circle",
+  MoreSquare = "more-square",
   Note_2 = "note-2",
   NoteAdd = "note-add",
   NoteFavorite = "note-favorite",
@@ -487,12 +550,15 @@ export enum Icons {
   Tag = "tag",
   TaskSquare = "task-square",
   Task = "task",
+  TickCircle = "tick-circle",
+  TickSquare = "tick-square",
   Ticket_2 = "ticket-2",
   TicketDiscount = "ticket-discount",
   TicketExpired = "ticket-expired",
   TicketStar = "ticket-star",
   Ticket = "ticket",
   TransactionMinus = "transaction-minus",
+  Trash = "trash",
   Unlock = "unlock",
   Wallet_2 = "wallet-2",
   Wallet_3 = "wallet-3",
@@ -507,171 +573,193 @@ export enum Icons {
 }
 
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
-  [Icons.Alarm]: "61697",
-  [Icons.ArchiveBook]: "61698",
-  [Icons.Archive]: "61699",
-  [Icons.Bill]: "61700",
-  [Icons.CardAdd]: "61701",
-  [Icons.CardEdit]: "61702",
-  [Icons.CardPos]: "61703",
-  [Icons.CardReceive]: "61704",
-  [Icons.CardRemove_2]: "61705",
-  [Icons.CardRemove]: "61706",
-  [Icons.CardSend]: "61707",
-  [Icons.CardSlash]: "61708",
-  [Icons.CardTick_2]: "61709",
-  [Icons.CardTick]: "61710",
-  [Icons.Card]: "61711",
-  [Icons.Cards]: "61712",
-  [Icons.ChartSquare]: "61713",
-  [Icons.Check]: "61714",
-  [Icons.ClipboardClose]: "61715",
-  [Icons.ClipboardExport]: "61716",
-  [Icons.ClipboardImport]: "61717",
-  [Icons.ClipboardText]: "61718",
-  [Icons.ClipboardTick]: "61719",
-  [Icons.Code_2]: "61720",
-  [Icons.CodeCircle]: "61721",
-  [Icons.Code]: "61722",
-  [Icons.Coin_2]: "61723",
-  [Icons.Coin]: "61724",
-  [Icons.CommandSquare]: "61725",
-  [Icons.Command]: "61726",
-  [Icons.ConvertCard]: "61727",
-  [Icons.Copyright]: "61728",
-  [Icons.CreativeCommons]: "61729",
-  [Icons.Data_2]: "61730",
-  [Icons.Data]: "61731",
-  [Icons.DiscountCircle]: "61732",
-  [Icons.DiscountShape]: "61733",
-  [Icons.Document_2]: "61734",
-  [Icons.DocumentCloud]: "61735",
-  [Icons.DocumentCode_2]: "61736",
-  [Icons.DocumentCode]: "61737",
-  [Icons.DocumentCopy]: "61738",
-  [Icons.DocumentDownload]: "61739",
-  [Icons.DocumentFavorite]: "61740",
-  [Icons.DocumentFilter]: "61741",
-  [Icons.DocumentForward]: "61742",
-  [Icons.DocumentLike]: "61743",
-  [Icons.DocumentNormal]: "61744",
-  [Icons.DocumentPrevious]: "61745",
-  [Icons.DocumentSketch]: "61746",
-  [Icons.DocumentText_2]: "61747",
-  [Icons.DocumentText]: "61748",
-  [Icons.DocumentUpload]: "61749",
-  [Icons.Document]: "61750",
-  [Icons.DollarCircle]: "61751",
-  [Icons.DollarSquare]: "61752",
-  [Icons.Edit_2]: "61753",
-  [Icons.Edit]: "61754",
-  [Icons.EmptyWalletAdd]: "61755",
-  [Icons.EmptyWalletChange]: "61756",
-  [Icons.EmptyWalletRemove]: "61757",
-  [Icons.EmptyWalletTick]: "61758",
-  [Icons.EmptyWalletTime]: "61759",
-  [Icons.EmptyWallet]: "61760",
-  [Icons.EyeSlash]: "61761",
-  [Icons.Eye]: "61762",
-  [Icons.FingerCricle]: "61763",
-  [Icons.FingerScan]: "61764",
-  [Icons.Frame]: "61765",
-  [Icons.HashtagDown]: "61766",
-  [Icons.HashtagUp]: "61767",
-  [Icons.Hashtag]: "61768",
-  [Icons.Hierarchy_2]: "61769",
-  [Icons.Hierarchy_3]: "61770",
-  [Icons.HierarchySquare_2]: "61771",
-  [Icons.HierarchySquare_3]: "61772",
-  [Icons.HierarchySquare]: "61773",
-  [Icons.Hierarchy]: "61774",
-  [Icons.KeySquare]: "61775",
-  [Icons.Key]: "61776",
-  [Icons.Lock_2]: "61777",
-  [Icons.LockCircle]: "61778",
-  [Icons.LockSlash]: "61779",
-  [Icons.Lock]: "61780",
-  [Icons.Math]: "61781",
-  [Icons.MenuBoard]: "61782",
-  [Icons.MessageProgramming]: "61783",
-  [Icons.MobileProgramming]: "61784",
-  [Icons.Money_2]: "61785",
-  [Icons.Money_3]: "61786",
-  [Icons.Money_4]: "61787",
-  [Icons.MoneyAdd]: "61788",
-  [Icons.MoneyChange]: "61789",
-  [Icons.MoneyForbidden]: "61790",
-  [Icons.MoneyRecive]: "61791",
-  [Icons.MoneyRemove]: "61792",
-  [Icons.MoneySend]: "61793",
-  [Icons.MoneyTick]: "61794",
-  [Icons.MoneyTime]: "61795",
-  [Icons.Money]: "61796",
-  [Icons.Moneys]: "61797",
-  [Icons.Note_2]: "61798",
-  [Icons.NoteAdd]: "61799",
-  [Icons.NoteFavorite]: "61800",
-  [Icons.NoteRemove]: "61801",
-  [Icons.NoteText]: "61802",
-  [Icons.Note]: "61803",
-  [Icons.PasswordCheck]: "61804",
-  [Icons.PercentageCircle]: "61805",
-  [Icons.PercentageSquare]: "61806",
-  [Icons.ProgrammingArrow]: "61807",
-  [Icons.ProgrammingArrows]: "61808",
-  [Icons.Radar]: "61809",
-  [Icons.Receipt_2]: "61810",
-  [Icons.Receipt_3]: "61811",
-  [Icons.Receipt_4]: "61812",
-  [Icons.ReceiptAdd]: "61813",
-  [Icons.ReceiptDiscount]: "61814",
-  [Icons.ReceiptDisscount]: "61815",
-  [Icons.ReceiptEdit]: "61816",
-  [Icons.ReceiptItem]: "61817",
-  [Icons.ReceiptMinus]: "61818",
-  [Icons.ReceiptSearch]: "61819",
-  [Icons.ReceiptText]: "61820",
-  [Icons.Receipt]: "61821",
-  [Icons.ScanBarcode]: "61822",
-  [Icons.Scan]: "61823",
-  [Icons.Scanner]: "61824",
-  [Icons.Scanning]: "61825",
-  [Icons.Scroll]: "61826",
-  [Icons.SecurityCard]: "61827",
-  [Icons.SecuritySafe]: "61828",
-  [Icons.SecurityUser]: "61829",
-  [Icons.Security]: "61830",
-  [Icons.ShieldCross]: "61831",
-  [Icons.ShieldSearch]: "61832",
-  [Icons.ShieldSlash]: "61833",
-  [Icons.ShieldTick]: "61834",
-  [Icons.Shield]: "61835",
-  [Icons.SidebarBottom]: "61836",
-  [Icons.SidebarLeft]: "61837",
-  [Icons.SidebarRight]: "61838",
-  [Icons.SidebarTop]: "61839",
-  [Icons.Stickynote]: "61840",
-  [Icons.Strongbox_2]: "61841",
-  [Icons.Strongbox]: "61842",
-  [Icons.Tag_2]: "61843",
-  [Icons.Tag]: "61844",
-  [Icons.TaskSquare]: "61845",
-  [Icons.Task]: "61846",
-  [Icons.Ticket_2]: "61847",
-  [Icons.TicketDiscount]: "61848",
-  [Icons.TicketExpired]: "61849",
-  [Icons.TicketStar]: "61850",
-  [Icons.Ticket]: "61851",
-  [Icons.TransactionMinus]: "61852",
-  [Icons.Unlock]: "61853",
-  [Icons.Wallet_2]: "61854",
-  [Icons.Wallet_3]: "61855",
-  [Icons.Wallet_4]: "61856",
-  [Icons.WalletAdd_2]: "61857",
-  [Icons.WalletAdd]: "61858",
-  [Icons.WalletCheck]: "61859",
-  [Icons.WalletMoney]: "61860",
-  [Icons.WalletRemove]: "61861",
-  [Icons.WalletSearch]: "61862",
-  [Icons.Wallet]: "61863",
+  [Icons.AddCircle]: "61697",
+  [Icons.AddSquare]: "61698",
+  [Icons.Add]: "61699",
+  [Icons.Alarm]: "61700",
+  [Icons.ArchiveBook]: "61701",
+  [Icons.Archive]: "61702",
+  [Icons.Battery_2]: "61703",
+  [Icons.BatteryCharging]: "61704",
+  [Icons.BatteryDisable]: "61705",
+  [Icons.BatteryEmpty_2]: "61706",
+  [Icons.BatteryEmpty]: "61707",
+  [Icons.BatteryFull]: "61708",
+  [Icons.Bill]: "61709",
+  [Icons.CardAdd]: "61710",
+  [Icons.CardEdit]: "61711",
+  [Icons.CardPos]: "61712",
+  [Icons.CardReceive]: "61713",
+  [Icons.CardRemove_2]: "61714",
+  [Icons.CardRemove]: "61715",
+  [Icons.CardSend]: "61716",
+  [Icons.CardSlash]: "61717",
+  [Icons.CardTick_2]: "61718",
+  [Icons.CardTick]: "61719",
+  [Icons.Card]: "61720",
+  [Icons.Cards]: "61721",
+  [Icons.ChartSquare]: "61722",
+  [Icons.Check]: "61723",
+  [Icons.ClipboardClose]: "61724",
+  [Icons.ClipboardExport]: "61725",
+  [Icons.ClipboardImport]: "61726",
+  [Icons.ClipboardText]: "61727",
+  [Icons.ClipboardTick]: "61728",
+  [Icons.CloseCircle]: "61729",
+  [Icons.Code_2]: "61730",
+  [Icons.CodeCircle]: "61731",
+  [Icons.Code]: "61732",
+  [Icons.Coin_2]: "61733",
+  [Icons.Coin]: "61734",
+  [Icons.CommandSquare]: "61735",
+  [Icons.Command]: "61736",
+  [Icons.ConvertCard]: "61737",
+  [Icons.Copyright]: "61738",
+  [Icons.CreativeCommons]: "61739",
+  [Icons.Danger]: "61740",
+  [Icons.Data_2]: "61741",
+  [Icons.Data]: "61742",
+  [Icons.DiscountCircle]: "61743",
+  [Icons.DiscountShape]: "61744",
+  [Icons.Document_2]: "61745",
+  [Icons.DocumentCloud]: "61746",
+  [Icons.DocumentCode_2]: "61747",
+  [Icons.DocumentCode]: "61748",
+  [Icons.DocumentCopy]: "61749",
+  [Icons.DocumentDownload]: "61750",
+  [Icons.DocumentFavorite]: "61751",
+  [Icons.DocumentFilter]: "61752",
+  [Icons.DocumentForward]: "61753",
+  [Icons.DocumentLike]: "61754",
+  [Icons.DocumentNormal]: "61755",
+  [Icons.DocumentPrevious]: "61756",
+  [Icons.DocumentSketch]: "61757",
+  [Icons.DocumentText_2]: "61758",
+  [Icons.DocumentText]: "61759",
+  [Icons.DocumentUpload]: "61760",
+  [Icons.Document]: "61761",
+  [Icons.DollarCircle]: "61762",
+  [Icons.DollarSquare]: "61763",
+  [Icons.Edit_2]: "61764",
+  [Icons.Edit]: "61765",
+  [Icons.EmptyWalletAdd]: "61766",
+  [Icons.EmptyWalletChange]: "61767",
+  [Icons.EmptyWalletRemove]: "61768",
+  [Icons.EmptyWalletTick]: "61769",
+  [Icons.EmptyWalletTime]: "61770",
+  [Icons.EmptyWallet]: "61771",
+  [Icons.EyeSlash]: "61772",
+  [Icons.Eye]: "61773",
+  [Icons.FingerCricle]: "61774",
+  [Icons.FingerScan]: "61775",
+  [Icons.Frame]: "61776",
+  [Icons.HashtagDown]: "61777",
+  [Icons.HashtagUp]: "61778",
+  [Icons.Hashtag]: "61779",
+  [Icons.Hierarchy_2]: "61780",
+  [Icons.Hierarchy_3]: "61781",
+  [Icons.HierarchySquare_2]: "61782",
+  [Icons.HierarchySquare_3]: "61783",
+  [Icons.HierarchySquare]: "61784",
+  [Icons.Hierarchy]: "61785",
+  [Icons.Home_2]: "61786",
+  [Icons.Home]: "61787",
+  [Icons.InfoCircle]: "61788",
+  [Icons.KeySquare]: "61789",
+  [Icons.Key]: "61790",
+  [Icons.Lock_2]: "61791",
+  [Icons.LockCircle]: "61792",
+  [Icons.LockSlash]: "61793",
+  [Icons.Lock]: "61794",
+  [Icons.Math]: "61795",
+  [Icons.MenuBoard]: "61796",
+  [Icons.MessageProgramming]: "61797",
+  [Icons.MinusCirlce]: "61798",
+  [Icons.MinusSquare]: "61799",
+  [Icons.Minus]: "61800",
+  [Icons.MobileProgramming]: "61801",
+  [Icons.Money_2]: "61802",
+  [Icons.Money_3]: "61803",
+  [Icons.Money_4]: "61804",
+  [Icons.MoneyAdd]: "61805",
+  [Icons.MoneyChange]: "61806",
+  [Icons.MoneyForbidden]: "61807",
+  [Icons.MoneyRecive]: "61808",
+  [Icons.MoneyRemove]: "61809",
+  [Icons.MoneySend]: "61810",
+  [Icons.MoneyTick]: "61811",
+  [Icons.MoneyTime]: "61812",
+  [Icons.Money]: "61813",
+  [Icons.Moneys]: "61814",
+  [Icons.MoreCircle]: "61815",
+  [Icons.MoreSquare]: "61816",
+  [Icons.Note_2]: "61817",
+  [Icons.NoteAdd]: "61818",
+  [Icons.NoteFavorite]: "61819",
+  [Icons.NoteRemove]: "61820",
+  [Icons.NoteText]: "61821",
+  [Icons.Note]: "61822",
+  [Icons.PasswordCheck]: "61823",
+  [Icons.PercentageCircle]: "61824",
+  [Icons.PercentageSquare]: "61825",
+  [Icons.ProgrammingArrow]: "61826",
+  [Icons.ProgrammingArrows]: "61827",
+  [Icons.Radar]: "61828",
+  [Icons.Receipt_2]: "61829",
+  [Icons.Receipt_3]: "61830",
+  [Icons.Receipt_4]: "61831",
+  [Icons.ReceiptAdd]: "61832",
+  [Icons.ReceiptDiscount]: "61833",
+  [Icons.ReceiptDisscount]: "61834",
+  [Icons.ReceiptEdit]: "61835",
+  [Icons.ReceiptItem]: "61836",
+  [Icons.ReceiptMinus]: "61837",
+  [Icons.ReceiptSearch]: "61838",
+  [Icons.ReceiptText]: "61839",
+  [Icons.Receipt]: "61840",
+  [Icons.ScanBarcode]: "61841",
+  [Icons.Scan]: "61842",
+  [Icons.Scanner]: "61843",
+  [Icons.Scanning]: "61844",
+  [Icons.Scroll]: "61845",
+  [Icons.SecurityCard]: "61846",
+  [Icons.SecuritySafe]: "61847",
+  [Icons.SecurityUser]: "61848",
+  [Icons.Security]: "61849",
+  [Icons.ShieldCross]: "61850",
+  [Icons.ShieldSearch]: "61851",
+  [Icons.ShieldSlash]: "61852",
+  [Icons.ShieldTick]: "61853",
+  [Icons.Shield]: "61854",
+  [Icons.SidebarBottom]: "61855",
+  [Icons.SidebarLeft]: "61856",
+  [Icons.SidebarRight]: "61857",
+  [Icons.SidebarTop]: "61858",
+  [Icons.Stickynote]: "61859",
+  [Icons.Strongbox_2]: "61860",
+  [Icons.Strongbox]: "61861",
+  [Icons.Tag_2]: "61862",
+  [Icons.Tag]: "61863",
+  [Icons.TaskSquare]: "61864",
+  [Icons.Task]: "61865",
+  [Icons.TickCircle]: "61866",
+  [Icons.TickSquare]: "61867",
+  [Icons.Ticket_2]: "61868",
+  [Icons.TicketDiscount]: "61869",
+  [Icons.TicketExpired]: "61870",
+  [Icons.TicketStar]: "61871",
+  [Icons.Ticket]: "61872",
+  [Icons.TransactionMinus]: "61873",
+  [Icons.Trash]: "61874",
+  [Icons.Unlock]: "61875",
+  [Icons.Wallet_2]: "61876",
+  [Icons.Wallet_3]: "61877",
+  [Icons.Wallet_4]: "61878",
+  [Icons.WalletAdd_2]: "61879",
+  [Icons.WalletAdd]: "61880",
+  [Icons.WalletCheck]: "61881",
+  [Icons.WalletMoney]: "61882",
+  [Icons.WalletRemove]: "61883",
+  [Icons.WalletSearch]: "61884",
+  [Icons.Wallet]: "61885",
 };

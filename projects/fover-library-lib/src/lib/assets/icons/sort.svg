@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_sort" data-name="vuesax/outline/sort" transform="translate(-172 -316)">
+    <g id="sort">
+      <path id="Vector" d="M18.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h18a.755.755,0,0,1,.75.75A.755.755,0,0,1,18.75,1.5Z" transform="translate(174.25 322.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M12.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h12a.755.755,0,0,1,.75.75A.755.755,0,0,1,12.75,1.5Z" transform="translate(177.25 327.25)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M4.75,1.5h-4A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h4A.755.755,0,0,1,5.5.75.755.755,0,0,1,4.75,1.5Z" transform="translate(181.25 332.25)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(172 316)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
