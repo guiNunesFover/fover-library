@@ -14,7 +14,9 @@
     <div class="container-example">
         
         <!-- Example Component -->
-        <fover-button>Emitir notificação</fover-button>
+        <fover-button
+            (click)="emitNotification()">Emitir notificação
+        </fover-button>
 
         <!-- Options itens -->
         <div class="container-options-itens">
@@ -33,7 +35,8 @@
         <!-- Codes -->
         <fover-editor
             *ngIf="showCodeDefault"
-            [code]="codeDefault">
+            [code]="codeDefault"
+            [language]="'typescript'">
         </fover-editor>
     </div>
 </div>
