@@ -9,6 +9,7 @@ export const lightTheme: Theme =
         '--background-page': '#21272D',
         '--background-cards': '#323741',
         '--background-cards-2': '#2A2E36',
+        '--background-cards-3': '#000',
         '--border': '#484B55',
         '--title': '#fff',
         '--placeholder': '#808289',

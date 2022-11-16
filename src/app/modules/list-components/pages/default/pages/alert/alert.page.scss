@@ -2,8 +2,11 @@
 
 .container-title
 {
-    background-color: var(--background-cards-2);
+    position: fixed;
+    width: 100%;
     padding: 12px;
+    background-color: var(--background-cards-2);
+    border-bottom: solid 1px var(--background-cards-3);
 
     .title
     {
@@ -13,7 +16,7 @@
 
 .container-page
 {
-    padding: 52px 200px;
+    padding: 82px 200px;
     box-sizing: border-box;
 
     .title
