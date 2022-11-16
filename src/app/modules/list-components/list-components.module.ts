@@ -10,6 +10,7 @@ import { FoverComponentesModule } from 'projects/fover-library-lib/src/public-ap
 import { IconsPage } from './pages/default/pages/_icons/icons.page';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AlertPage } from './pages/default/pages/alert/alert.page';
+import { ClipboardModule } from 'ngx-clipboard';
 
 @NgModule({
     declarations: [
@@ -26,6 +27,7 @@ import { AlertPage } from './pages/default/pages/alert/alert.page';
         ListComponentsRoutingModule,
         FoverComponentesModule,
         FoverEditorModule,
+        ClipboardModule,
     ],
     exports: [
         ListComponentsDefaultPage

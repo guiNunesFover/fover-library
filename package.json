@@ -21,6 +21,7 @@
     "@angular/router": "^12.2.16",
     "fantasticon": "^1.2.3",
     "ng-packagr": "^12.2.7",
+    "ngx-clipboard": "^14.0.2",
     "ngx-monaco-editor": "^12.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",

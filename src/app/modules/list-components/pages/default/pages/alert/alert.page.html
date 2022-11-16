@@ -21,11 +21,14 @@
 
         <!-- Options itens -->
         <div class="container-options-itens">
-            <i class="icon-options fover-document-copy"></i>
+            <i 
+                class="icon-options fover-document-copy"
+                (click)="copyCodeDefault()">
+            </i>
             <i 
                 class="icon-options"
-                [class.fover-eye]="showCodeDefault"
-                [class.fover-eye-slash]="!showCodeDefault"
+                [class.fover-eye-slash]="showCodeDefault"
+                [class.fover-document-code]="!showCodeDefault"
                 (click)="showCodeDefault = !showCodeDefault">
             </i>
         </div>

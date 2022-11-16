@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_hierarchy-square" data-name="vuesax/outline/hierarchy-square" transform="translate(-428 -188)">
+    <g id="hierarchy-square">
+      <path id="Vector" d="M4.65,8.4a.755.755,0,0,1-.75-.75V1.75a.248.248,0,0,0-.25-.25H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h2.9A1.758,1.758,0,0,1,5.4,1.75v5.9A.755.755,0,0,1,4.65,8.4Z" transform="translate(439.8 194.75)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M2.55,4.5a.781.781,0,0,1-.48-.17l-1.8-1.5A.746.746,0,0,1,0,2.251a.761.761,0,0,1,.27-.58l1.8-1.5a.758.758,0,0,1,1.06.1.749.749,0,0,1-.1,1.06l-1.11.92,1.11.92A.75.75,0,0,1,2.55,4.5Z" transform="translate(439.5 193.249)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M.75,5.7A.755.755,0,0,1,0,4.95V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75v4.2A.755.755,0,0,1,.75,5.7Z" transform="translate(434.8 197.45)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M2.7,5.4A2.7,2.7,0,1,1,5.4,2.7,2.7,2.7,0,0,1,2.7,5.4Zm0-3.9A1.2,1.2,0,1,0,3.9,2.7,1.2,1.2,0,0,0,2.7,1.5Z" transform="translate(433 193.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M2.55,5.1A2.55,2.55,0,1,1,5.1,2.55,2.548,2.548,0,0,1,2.55,5.1Zm0-3.6A1.05,1.05,0,1,0,3.6,2.55,1.05,1.05,0,0,0,2.55,1.5Z" transform="translate(433 201.65)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M2.55,5.1A2.55,2.55,0,1,1,5.1,2.55,2.548,2.548,0,0,1,2.55,5.1Zm0-3.6A1.05,1.05,0,1,0,3.6,2.55,1.05,1.05,0,0,0,2.55,1.5Z" transform="translate(441.9 201.65)" fill="#292d32"/>
+      <path id="Vector-7" data-name="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(429.25 189.25)" fill="#292d32"/>
+      <path id="Vector-8" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(428 188)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
