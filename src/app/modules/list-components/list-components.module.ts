@@ -7,19 +7,21 @@ import { ButtonPage } from './pages/default/pages/buttons/buttons.page';
 import { FoverEditorModule } from '../_shared/fover-editor/fover-editor.module';
 import { InputPage } from './pages/default/pages/inputs/input.page';
 import { FoverComponentesModule } from 'projects/fover-library-lib/src/public-api';
-import { IconsPage } from './pages/default/pages/_icons/icons.page';
+import { IconPage } from './pages/default/pages/_icons/icons.page';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AlertPage } from './pages/default/pages/alert/alert.page';
+import { AlertPage } from './pages/default/pages/alerts/alerts.page';
 import { ClipboardModule } from 'ngx-clipboard';
+import { NotificationPage } from './pages/default/pages/notifications/notifications.page';
 
 @NgModule({
     declarations: [
         ListComponentsDefaultPage,
         MenuLateralComponent,
-        IconsPage,
+        IconPage,
         ButtonPage,
         InputPage,
         AlertPage,
+        NotificationPage,
     ],
     imports: [
         CommonModule,

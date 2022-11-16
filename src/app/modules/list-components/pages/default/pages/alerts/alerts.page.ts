@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { ClipboardService } from 'ngx-clipboard';
 
 @Component({
-    selector: 'alert',
-    templateUrl: './alert.page.html',
-    styleUrls: ['./alert.page.scss']
+    selector: 'alerts',
+    templateUrl: './alerts.page.html',
+    styleUrls: ['./alerts.page.scss']
 })
 export class AlertPage 
 {

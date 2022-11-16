@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: './icons.page.html',
     styleUrls: ['./icons.page.scss']
 })
-export class IconsPage implements OnInit
+export class IconPage implements OnInit
 {
     public code: any;
     public listIcons: string[] = [];
