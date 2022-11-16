@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_copyright" data-name="vuesax/outline/copyright" transform="translate(-748 -252)">
+    <g id="copyright">
+      <path id="Vector" d="M10.75,21.5A10.75,10.75,0,1,1,21.5,10.75,10.759,10.759,0,0,1,10.75,21.5Zm0-20A9.25,9.25,0,1,0,20,10.75,9.261,9.261,0,0,0,10.75,1.5Z" transform="translate(749.25 253.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M4.75,9.5a4.75,4.75,0,0,1,0-9.5A4.7,4.7,0,0,1,7.88,1.19a.751.751,0,1,1-.99,1.13,3.25,3.25,0,1,0,0,4.88.751.751,0,1,1,.99,1.13A4.8,4.8,0,0,1,4.75,9.5Z" transform="translate(755.49 259.25)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(748 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

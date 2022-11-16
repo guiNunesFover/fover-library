@@ -9,6 +9,7 @@ import { InputPage } from './pages/default/pages/inputs/input.page';
 import { FoverComponentesModule } from 'projects/fover-library-lib/src/public-api';
 import { IconsPage } from './pages/default/pages/_icons/icons.page';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AlertPage } from './pages/default/pages/alert/alert.page';
 
 @NgModule({
     declarations: [
@@ -17,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
         IconsPage,
         ButtonPage,
         InputPage,
+        AlertPage,
     ],
     imports: [
         CommonModule,

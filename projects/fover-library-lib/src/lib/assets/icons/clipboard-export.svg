@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_clipboard-export" data-name="vuesax/outline/clipboard-export" transform="translate(-300 -252)">
+    <g id="clipboard-export">
+      <path id="Vector" d="M6.75,5.5h-4C1.79,5.5,0,5.5,0,2.75S1.79,0,2.75,0h4C7.71,0,9.5,0,9.5,2.75,9.5,3.71,9.5,5.5,6.75,5.5Zm-4-4c-.99,0-1.25,0-1.25,1.25S1.76,4,2.75,4h4C8,4,8,3.74,8,2.75,8,1.5,7.74,1.5,6.75,1.5Z" transform="translate(307.25 253.25)" fill="#292d32"/>
+      <path id="Vector-2" data-name="Vector" d="M11.75,19.471h-5c-5.62,0-6.75-2.58-6.75-6.75v-6C0,2.161,1.65.211,5.71,0a.762.762,0,0,1,.79.71.742.742,0,0,1-.71.78C2.95,1.651,1.5,2.5,1.5,6.721v6c0,3.7.73,5.25,5.25,5.25h5a.75.75,0,0,1,0,1.5Z" transform="translate(302.25 255.279)" fill="#292d32"/>
+      <path id="Vector-3" data-name="Vector" d="M5.751,12.481a.755.755,0,0,1-.75-.75v-5c0-4.22-1.45-5.07-4.29-5.23A.757.757,0,0,1,0,.711.757.757,0,0,1,.791,0c4.06.22,5.71,2.17,5.71,6.72v5A.758.758,0,0,1,5.751,12.481Z" transform="translate(315.249 255.269)" fill="#292d32"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,4.5A.755.755,0,0,1,0,3.75v-3A.755.755,0,0,1,.75,0h3A.755.755,0,0,1,4.5.75a.755.755,0,0,1-.75.75H1.5V3.75A.755.755,0,0,1,.75,4.5Z" transform="translate(314.25 267.25)" fill="#292d32"/>
+      <path id="Vector-5" data-name="Vector" d="M6.707,7.457a.742.742,0,0,1-.53-.22L.218,1.277A.75.75,0,0,1,1.277.218l5.96,5.96a.754.754,0,0,1,0,1.06A.742.742,0,0,1,6.707,7.457Z" transform="translate(314.293 267.293)" fill="#292d32"/>
+      <path id="Vector-6" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(300 252)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+@import 'src/assets/styles/main.scss';
+
+.container-alert
+{
+    padding: 24px;
+    border-left: solid 2px transparent;
+
+    .title
+    {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .message
+    {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    &.warning
+    {
+        color: var(--warning-font);
+        border-left-color: var(--warning);
+        background-color: var(--warning-background);
+    }
+}

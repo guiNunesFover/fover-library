@@ -38,8 +38,15 @@
     border: solid 1px var(--border);
     background-color: var(--background-cards);
 
+    i
+    {
+        font-size: 25px;
+        height: 25px;
+    }
+
     p
     {
-        margin-top: 6px;
+        margin-top: 9px;
+        font-size: 12px;
     }
 }
