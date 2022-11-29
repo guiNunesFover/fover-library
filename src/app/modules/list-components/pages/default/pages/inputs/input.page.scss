@@ -1,34 +1,61 @@
 @import 'src/assets/styles/main.scss';
 
+.container-title
+{
+    position: fixed;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--background-cards-2);
+    border-bottom: solid 1px var(--background-cards-3);
+
+    .title
+    {
+        font-size: 21px;
+    }
+}
+
 .container-page
 {
-    padding: 52px;
+    padding: 82px 200px;
     box-sizing: border-box;
 
     .title
     {
-        font-size: 32px;
-        margin-bottom: 32px;
-    }
-    
-    .sub-title
-    {
-        font-size: 27px;
-        margin-top: 32px;
-        border-bottom: solid 1px var(--border);
+        font-size: 26px;
+        margin-bottom: 12px;
     }
 
     .message
     {
         font-size: 16px;
-        margin-bottom: 8px;
+        margin-bottom: 12px;
     }
 
-    .container-examples
+    .container-example
     {
-        display: flex;
-        align-items: center;
-        grid-gap: 12px;
-        margin-top: 12px;
+        padding: 21px;
+        border-radius: 12px;
+        background-color: var(--background-cards-2);
+
+        .container-options-itens
+        {
+            margin-top: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-gap: 16px;
+
+            .icon-options
+            {
+                color: var(--placeholder);
+                transition: $transition;
+                cursor: pointer;
+
+                &:hover
+                {
+                    color: var(--title);
+                }
+            }
+        }
     }
 }

@@ -1,22 +1,39 @@
+<!-- Title -->
+<div class="container-title">
+    <h1 class="title">Inputs</h1>
+</div>
+
 <div class="container-page">
 
-    <!-- Title -->
-    <h1 class="title">Buttons</h1>
+    <!-- Default -->
+    <h1 class="title">Default</h1>
 
-    <!-- Messages -->
-    <p class="message">Os botões são parte fundamental de qualquer projeto, com o fover você pode adicionar um ótimo botão com uma única linha de código</p>
-    <p class="message">os botões possuem todos os estados como ativo, foco, foco, para tornar sua implementação mais simples e agilizar o trabalho</p>
+    <!-- Message -->
+    <p class="message">Gera um botão personalizado com a cor padrão do sistema.</p>
 
-    <!-- Examples -->
-    <div class="container-examples">
-        <fover-button>primary</fover-button>
-        <fover-button
-            [type]="'transparent'">transparent
-        </fover-button>
+    <div class="container-example">
+        
+        <!-- Example Component -->
+        <fover-button>Primary default</fover-button>
+
+        <!-- Options itens -->
+        <div class="container-options-itens">
+            <i 
+                class="icon-options fover-document-copy"
+                (click)="copyCodeDefault()">
+            </i>
+            <i 
+                class="icon-options"
+                [class.fover-eye-slash]="showCodeDefault"
+                [class.fover-document-code]="!showCodeDefault"
+                (click)="showCodeDefault = !showCodeDefault">
+            </i>
+        </div>
+
+        <!-- Codes -->
+        <fover-editor
+            *ngIf="showCodeDefault"
+            [code]="codeDefault">
+        </fover-editor>
     </div>
-
-    <!-- Code example -->
-    <fover-editor
-        [code]="code">
-    </fover-editor>
 </div>

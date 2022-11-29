@@ -1,185 +1,41 @@
-<div class="container-page" [formGroup]="formGroup">
-
-    <!-- Title -->
+<!-- Title -->
+<div class="container-title">
     <h1 class="title">Inputs</h1>
+</div>
 
-    <!-- Messages -->
-    <p class="message">Adicione uma entrada de elementos facilitada com o componente 'fover-input'</p>
+<div class="container-page">
 
-    <!-- Inputs simples -->
-    <ng-container>
+    <!-- Default -->
+    <h1 class="title">Default</h1>
+
+    <!-- Message -->
+    <p class="message">Estiliza um input passado no child content.</p>
+
+    <div class="container-example">
         
-        <!-- Sub Title -->
-        <h1 class="sub-title">Inputs simples</h1>
-    
-        <!-- Examples -->
-        <div class="container-examples">
-            
-            <!-- xl -->
-            <fover-input [height]="'xl'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
+        <!-- Example Component -->
+        <fover-input>
+            <input placeholder="Digite aqui..." />
+        </fover-input>
 
-            <!-- l -->
-            <fover-input [height]="'l'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-
-            <!-- default -->
-            <fover-input>
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-
-            <!-- Small -->
-            <fover-input [height]="'small'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-            
-            <!-- Mini -->
-            <fover-input [height]="'mini'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
+        <!-- Options itens -->
+        <div class="container-options-itens">
+            <i 
+                class="icon-options fover-document-copy"
+                (click)="copyCodeDefault()">
+            </i>
+            <i 
+                class="icon-options"
+                [class.fover-eye-slash]="showCodeDefault"
+                [class.fover-document-code]="!showCodeDefault"
+                (click)="showCodeDefault = !showCodeDefault">
+            </i>
         </div>
-    
-        <!-- Code example -->
+
+        <!-- Codes -->
         <fover-editor
-            [code]="codeSimple">
+            *ngIf="showCodeDefault"
+            [code]="codeDefault">
         </fover-editor>
-    </ng-container>
-
-    <!-- Inputs com label -->
-    <ng-container>
-        
-        <!-- Sub Title -->
-        <h1 class="sub-title">Inputs com label</h1>
-    
-        <!-- Examples -->
-        <div class="container-examples">
-            
-            <!-- xl -->
-            <fover-input [height]="'xl'" [label]="'Label teste'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-
-            <!-- l -->
-            <fover-input [height]="'l'" [label]="'Label teste'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-
-            <!-- default -->
-            <fover-input [label]="'Label teste'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-
-            <!-- Small -->
-            <fover-input [height]="'small'" [label]="'Label teste'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-            
-            <!-- Mini -->
-            <fover-input [height]="'mini'" [label]="'Label teste'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-        </div>
-    
-        <!-- Code example -->
-        <fover-editor
-            [code]="codeWithLabel">
-        </fover-editor>
-    </ng-container>
-
-    <!-- Inputs com icone na direita -->
-    <ng-container>
-        
-        <!-- Sub Title -->
-        <h1 class="sub-title">Inputs com icones na direita</h1>
-    
-        <!-- Examples -->
-        <div class="container-examples">
-
-            <!-- default -->
-            <fover-input 
-                [label]="'Label teste'"
-                [iconRight]="'fover-eye'">
-                <input 
-                    formControlName="email"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-        </div>
-    
-        <!-- Code example -->
-        <fover-editor
-            [code]="codeIconRight">
-        </fover-editor>
-    </ng-container>
-
-    <!-- Inputs com icone na esquerda -->
-    <ng-container>
-        
-        <!-- Sub Title -->
-        <h1 class="sub-title">Inputs com icones na esquerda</h1>
-    
-        <!-- Examples -->
-        <div class="container-examples">
-
-            <!-- default -->
-            <fover-input 
-                [label]="'Label teste'"
-                [iconLeft]="'fover-unlock'">
-                <input 
-                    formControlName="password"
-                    placeholder="Digite aqui..."  />
-            </fover-input>
-        </div>
-    
-        <!-- Code example -->
-        <fover-editor
-            [code]="codeIconRight">
-        </fover-editor>
-    </ng-container>
-
-    <!-- Inputs de senhas -->
-    <ng-container>
-        
-        <!-- Sub Title -->
-        <h1 class="sub-title">Inputs de senhas</h1>
-    
-        <!-- Examples -->
-        <div class="container-examples">
-
-            <!-- default -->
-            <fover-input 
-                [label]="'Label teste'">
-                <input 
-                    #isPassword
-                    formControlName="password"
-                    placeholder="Digite aqui..." />
-            </fover-input>
-        </div>
-    
-        <!-- Code example -->
-        <fover-editor
-            [code]="codePassword">
-        </fover-editor>
-    </ng-container>
+    </div>
 </div>
