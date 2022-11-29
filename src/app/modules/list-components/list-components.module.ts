@@ -6,12 +6,13 @@ import { MenuLateralComponent } from './pages/default/components/menu-lateral/me
 import { ButtonPage } from './pages/default/pages/buttons/buttons.page';
 import { FoverEditorModule } from '../_shared/fover-editor/fover-editor.module';
 import { InputPage } from './pages/default/pages/inputs/input.page';
-import { FoverComponentsModule } from 'projects/fover-library-lib/src/public-api';
+import { FoverButtonModule, FoverComponentsModule } from 'projects/fover-library-lib/src/public-api';
 import { IconPage } from './pages/default/pages/_icons/icons.page';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AlertPage } from './pages/default/pages/alerts/alerts.page';
 import { ClipboardModule } from 'ngx-clipboard';
 import { NotificationPage } from './pages/default/pages/notifications/notifications.page';
+
 
 @NgModule({
     declarations: [
@@ -27,9 +28,9 @@ import { NotificationPage } from './pages/default/pages/notifications/notificati
         CommonModule,
         ReactiveFormsModule,
         ListComponentsRoutingModule,
-        FoverComponentsModule,
         FoverEditorModule,
         ClipboardModule,
+        FoverComponentsModule,
     ],
     exports: [
         ListComponentsDefaultPage

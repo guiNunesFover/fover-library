@@ -14,10 +14,10 @@ export class FoverInputComponent implements AfterViewInit, AfterContentInit
     @Input() iconRight: string;
     @Input() iconLeft: string;
     @Input() errorMessage: string;
-    @ContentChild(FormControlName) control: FormControlName;
-    @ContentChild('isPassword') child: ElementRef;
-    @Output() iconRightClick = new EventEmitter();
     @Output() iconLeftClick = new EventEmitter();
+    @Output() iconRightClick = new EventEmitter();
+    @ContentChild('isPassword') child: ElementRef;
+    @ContentChild(FormControlName) control: FormControlName;
     public input: FormControlName;
     
     ngAfterViewInit(): void 
