@@ -30,5 +30,8 @@
     <ng-content></ng-content>
     
     <!-- Message error -->
-    <p *ngIf="hasError()">{{ errorMessage || "Campo inválido." }}</p>
+    <p 
+        class="message-error"
+        *ngIf="hasError()">{{ errorMessage || "Campo inválido." }}
+    </p>
 </div>
