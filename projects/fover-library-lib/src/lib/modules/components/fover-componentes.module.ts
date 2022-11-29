@@ -12,4 +12,4 @@ import { FoverNotificationModule } from './notification';
         FoverNotificationModule,
     ],
 })
-export class FoverComponentesModule {}
+export class FoverComponentsModule {}

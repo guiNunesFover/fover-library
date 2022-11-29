@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve",
-    "buildIcons": "npm run createIcons && npm run copyIcons",
-    "createIcons": "fantasticon projects/fover-library-lib/src/lib/assets/icons -o projects/fover-library-lib/src/lib/assets/icons/icons-font -p fover --normalize true",
-    "copyIcons": "cp -r ./projects/fover-library-lib/src/assets/icons/icons-font ./dist/fover-design-systems/assets",
-    "build": "ng build fover-library-lib",
-    "publish": "npm run build && cd dist/fover-library-lib && npm publish"
+    "buildIcons": "fantasticon projects/fover-library-lib/src/lib/assets/icons -o projects/fover-library-lib/src/lib/assets/icons/icons-font -p fover --normalize true",
+    "copyIcons": "cp -r ./projects/fover-library-lib/src/lib/assets/icons/icons-font ./dist/fover-library-lib/assets",
+    "build": "ng build fover-library-lib && npm run buildIcons && npm run copyIcons",
+    "publish": "npm run build && npm publish"
   },
   "private": true,
   "dependencies": {
