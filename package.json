@@ -6,7 +6,7 @@
     "buildIcons": "fantasticon projects/fover-library-lib/src/lib/assets/icons -o projects/fover-library-lib/src/lib/assets/icons/icons-font -p fover --normalize true",
     "copyIcons": "cp -r ./projects/fover-library-lib/src/lib/assets/icons/icons-font ./dist/fover-library-lib/assets",
     "build": "ng build fover-library-lib && npm run buildIcons && npm run copyIcons",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build && cd dist/fover-library-lib && npm publish"
   },
   "private": true,
   "dependencies": {
