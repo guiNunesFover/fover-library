@@ -22,8 +22,8 @@ export class FoverButtonComponent implements OnInit
     {
         if (this.options)
         {
-            this.height = this.options.height ?? 'default';
-            this.type = this.options.type ?? 'default';
+            this.height = this.options.height ?? this.height ?? 'default';
+            this.type = this.options.type ?? this.type ?? 'default';
         }
     }
 }
