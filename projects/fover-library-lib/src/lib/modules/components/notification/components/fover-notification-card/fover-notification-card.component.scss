@@ -12,7 +12,7 @@
     margin: 15px 0;
     padding: 0 16px;
     box-sizing: border-box;
-    border: solid 2px transparent;
+    border: solid 2px red;
 
     &:first-child
     {
@@ -87,5 +87,13 @@
             border-radius: 50px 50px 50px 0;
             background-color: var(--title);
         }
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    .card-snackbar
+    {
+        width: 100%;
     }
 }
