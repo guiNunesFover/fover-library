@@ -1,6 +1,6 @@
 <!-- Title -->
 <div class="container-title">
-    <h1 class="title">Loadings</h1>
+    <h1 class="title">Modals</h1>
 </div>
 
 <div class="container-page">
@@ -9,12 +9,14 @@
     <h1 class="title">Default</h1>
 
     <!-- Message -->
-    <p class="message">Gera um loading rotativo.</p>
+    <p class="message">Gera uma casca de modal para você complementar com o conteúdo desejado.</p>
 
     <div class="container-example">
         
         <!-- Example Component -->
-        <fover-loading></fover-loading>
+        <fover-button
+            (click)="showModal = true;">Abrir modal
+        </fover-button>
 
         <!-- Options itens -->
         <div class="container-options-itens">
@@ -37,3 +39,9 @@
         </fover-editor>
     </div>
 </div>
+
+<!-- Modal -->
+<fover-modal
+    *ngIf="showModal"
+    (close)="showModal = false;">
+</fover-modal>

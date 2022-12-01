@@ -1,2 +1,2 @@
-export { FoverLoadingComponent } from "./loading.component";
-export { FoverLoadingModule } from "./loading.module";
+export { FoverLoadingComponent } from "./fover-loading.component";
+export { FoverLoadingModule } from "./fover-loading.module";

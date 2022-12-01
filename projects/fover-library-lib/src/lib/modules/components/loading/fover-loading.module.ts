@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FoverLoadingComponent } from './loading.component';
+import { FoverLoadingComponent } from './fover-loading.component';
 
 @NgModule({
     declarations: [

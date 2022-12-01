@@ -5,6 +5,7 @@ import { AlertPage } from './pages/default/pages/alerts/alerts.page';
 import { ButtonPage } from './pages/default/pages/buttons/buttons.page';
 import { InputPage } from './pages/default/pages/inputs/input.page';
 import { LoadingPage } from './pages/default/pages/loadings/loading.page';
+import { ModalPage } from './pages/default/pages/modals/modal.page';
 import { NotificationPage } from './pages/default/pages/notifications/notifications.page';
 import { IconPage } from './pages/default/pages/_icons/icons.page';
 
@@ -20,6 +21,7 @@ const routes: Routes = [
             { path: "alerts", component: AlertPage, },
             { path: "notifications", component: NotificationPage, },
             { path: "loadings", component: LoadingPage, },
+            { path: "modals", component: ModalPage, },
         ]
     }
 ];

@@ -1,0 +1,10 @@
+<!-- Open modal -->
+<fover-button
+    (click)="showModal = true;">Abrir modal
+</fover-button>
+
+<!-- Modal -->
+<fover-modal
+    *ngIf="showModal"
+    (close)="showModal = false;">
+</fover-modal>

@@ -1,0 +1,40 @@
+@import 'src/assets/styles/main.scss';
+
+.container-background-modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000c9;
+    z-index: 3;
+}
+
+.container-content
+{
+    position: fixed;
+    z-index: 5;
+    top: 60px;
+    border-radius: 7px;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: var(--background-cards);
+
+    .container-header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 17px;
+        color: var(--title);
+
+        .icon-close
+        {
+            $size: 19px;
+            font-size: $size;
+            height: $size;
+            cursor: pointer;
+        }
+    }
+}

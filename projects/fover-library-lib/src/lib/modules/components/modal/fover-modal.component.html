@@ -1,0 +1,21 @@
+<div class="container-background-modal" (click)="close.emit()"></div>
+
+<!-- Content -->
+<div 
+    class="container-content" 
+    [style.width]="widthPixel + 'px'"
+    [style.left]="left">
+    
+    <!-- Header -->
+    <div class="container-header">
+        
+        <!-- Title -->
+        <p class="title">{{title}}</p>
+
+        <!-- Close -->
+        <i class="fover-close-square icon-close" (click)="close.emit()"></i>
+    </div>
+
+    <!-- Body -->
+    <ng-content></ng-content>
+</div> 
