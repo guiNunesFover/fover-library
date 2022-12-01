@@ -1,0 +1,39 @@
+<!-- Title -->
+<div class="container-title">
+    <h1 class="title">Notifications</h1>
+</div>
+
+<div class="container-page">
+
+    <!-- Default -->
+    <h1 class="title">Default</h1>
+
+    <!-- Message -->
+    <p class="message">Gera uma notificação, para usar a instância da notificação é necessário instânciar no construtor da classe que irá utilizar</p>
+
+    <div class="container-example">
+        
+        <!-- Example Component -->
+        <fover-loading></fover-loading>
+
+        <!-- Options itens -->
+        <div class="container-options-itens">
+            <i 
+                class="icon-options fover-document-copy"
+                (click)="copyCodeDefault()">
+            </i>
+            <i 
+                class="icon-options"
+                [class.fover-eye-slash]="showCodeDefault"
+                [class.fover-document-code]="!showCodeDefault"
+                (click)="showCodeDefault = !showCodeDefault">
+            </i>
+        </div>
+
+        <!-- Codes -->
+        <fover-editor
+            *ngIf="showCodeDefault"
+            [code]="codeDefault">
+        </fover-editor>
+    </div>
+</div>

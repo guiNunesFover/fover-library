@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AlertPage } from './pages/default/pages/alerts/alerts.page';
 import { ClipboardModule } from 'ngx-clipboard';
 import { NotificationPage } from './pages/default/pages/notifications/notifications.page';
+import { LoadingPage } from './pages/default/pages/loadings/loading.page';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { NotificationPage } from './pages/default/pages/notifications/notificati
         InputPage,
         AlertPage,
         NotificationPage,
+        LoadingPage,
     ],
     imports: [
         CommonModule,
