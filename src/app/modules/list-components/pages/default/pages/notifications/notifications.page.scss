@@ -3,6 +3,7 @@
 .container-title
 {
     position: fixed;
+    z-index: 1;
     width: 100%;
     padding: 12px;
     background-color: var(--background-cards-2);

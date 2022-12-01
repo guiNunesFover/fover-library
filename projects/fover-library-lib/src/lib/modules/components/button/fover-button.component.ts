@@ -9,7 +9,7 @@ import { ButtonOptions, BUTTON_OPTIONS } from './button-options';
 export class FoverButtonComponent implements OnInit
 {
     @Input() height: 'xl' | 'l' | 'default' | 'small' | 'mini';
-    @Input() type: 'default' | 'transparent' = 'default';
+    @Input() type: 'default' | 'transparent' | 'border';
 
     constructor(@Inject(BUTTON_OPTIONS) public options: ButtonOptions) {}
     

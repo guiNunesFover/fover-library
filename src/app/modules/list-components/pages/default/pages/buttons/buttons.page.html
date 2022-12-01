@@ -6,34 +6,114 @@
 <div class="container-page">
 
     <!-- Default -->
-    <h1 class="title">Default</h1>
-
-    <!-- Message -->
-    <p class="message">Gera um botão personalizado com a cor padrão do sistema.</p>
-
-    <div class="container-example">
-        
-        <!-- Example Component -->
-        <fover-button>Primary default</fover-button>
-
-        <!-- Options itens -->
-        <div class="container-options-itens">
-            <i 
-                class="icon-options fover-document-copy"
-                (click)="copyCodeDefault()">
-            </i>
-            <i 
-                class="icon-options"
-                [class.fover-eye-slash]="showCodeDefault"
-                [class.fover-document-code]="!showCodeDefault"
-                (click)="showCodeDefault = !showCodeDefault">
-            </i>
+    <div class="container-item">
+        <h1 class="title">Default</h1>
+    
+        <!-- Message -->
+        <p class="message">Gera um botão personalizado com a cor padrão do sistema.</p>
+    
+        <div class="container-example">
+            
+            <!-- Example Component -->
+            <fover-button>Primary default</fover-button>
+    
+            <!-- Options itens -->
+            <div class="container-options-itens">
+                <i 
+                    class="icon-options fover-document-copy"
+                    (click)="copyCodeDefault()">
+                </i>
+                <i 
+                    class="icon-options"
+                    [class.fover-eye-slash]="showCodeDefault"
+                    [class.fover-document-code]="!showCodeDefault"
+                    (click)="showCodeDefault = !showCodeDefault">
+                </i>
+            </div>
+    
+            <!-- Codes -->
+            <fover-editor
+                *ngIf="showCodeDefault"
+                [code]="codeDefault">
+            </fover-editor>
         </div>
+    </div>
 
-        <!-- Codes -->
-        <fover-editor
-            *ngIf="showCodeDefault"
-            [code]="codeDefault">
-        </fover-editor>
+    <!-- Types -->
+    <div class="container-item">
+        <h1 class="title">Tipos de botões</h1>
+    
+        <!-- Message -->
+        <p class="message">Gera um botão personalizado com a cor de acordo com o tipo.</p>
+    
+        <div class="container-example">
+            
+            <!-- Example Component -->
+            <div class="container-examples-types">
+                <fover-button>Primary default</fover-button>
+                <fover-button [type]="'transparent'">Transparent</fover-button>
+                <fover-button [type]="'border'">Border</fover-button>
+            </div>
+    
+            <!-- Options itens -->
+            <div class="container-options-itens">
+                <i 
+                    class="icon-options fover-document-copy"
+                    (click)="copyCodeTypes()">
+                </i>
+                <i 
+                    class="icon-options"
+                    [class.fover-eye-slash]="showCodeTypes"
+                    [class.fover-document-code]="!showCodeTypes"
+                    (click)="showCodeTypes = !showCodeTypes">
+                </i>
+            </div>
+    
+            <!-- Codes -->
+            <fover-editor
+                *ngIf="showCodeTypes"
+                [code]="codeTypes">
+            </fover-editor>
+        </div>
+    </div>
+
+    <!-- height -->
+    <div class="container-item">
+        <h1 class="title">Tamanhos de botões</h1>
+    
+        <!-- Message -->
+        <p class="message">Você pode escolher o tamanho do botão que desejar.</p>
+    
+        <div class="container-example">
+            
+            <!-- Example Component -->
+            <div class="container-examples-types">
+                <fover-button [height]="'mini'">Primary default</fover-button>
+                <fover-button [height]="'small'">Primary default</fover-button>
+                <fover-button>Primary default</fover-button>
+                <fover-button [height]="'l'">Primary default</fover-button>
+                <fover-button [height]="'xl'">Primary default</fover-button>
+            </div>
+    
+            <!-- Options itens -->
+            <div class="container-options-itens">
+                <i 
+                    class="icon-options fover-document-copy"
+                    (click)="copyCodeTypes()">
+                </i>
+                <i 
+                    class="icon-options"
+                    [class.fover-eye-slash]="showCodeTypes"
+                    [class.fover-document-code]="!showCodeTypes"
+                    (click)="showCodeTypes = !showCodeTypes">
+                </i>
+            </div>
+    
+            <!-- Codes -->
+            <fover-editor
+                *ngIf="showCodeTypes"
+                [code]="codeTypes">
+            </fover-editor>
+        </div>
     </div>
 </div>
