@@ -11,11 +11,13 @@
     <!-- Message -->
     <p class="message">Estiliza um input passado no child content.</p>
 
-    <div class="container-example">
+    <div class="container-example" [formGroup]="formGroup">
         
         <!-- Example Component -->
         <fover-input>
-            <input placeholder="Digite aqui..." />
+            <input 
+                placeholder="Digite aqui..."
+                formControlName="email" />
         </fover-input>
 
         <!-- Options itens -->

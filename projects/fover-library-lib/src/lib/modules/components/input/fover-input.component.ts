@@ -38,7 +38,7 @@ export class FoverInputComponent implements AfterViewInit, AfterContentInit
 
     public hasError(): boolean
     {
-        if (this.input) return this.input.invalid! && (this.input.dirty! || this.input.touched!);
+        if (this.input) return this.input.invalid! && this.input.touched!;
 
         return false;
     }

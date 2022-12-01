@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ClipboardService } from 'ngx-clipboard';
 import { FoverNotificationService } from 'projects/fover-library-lib/src/public-api';
 
@@ -30,8 +30,7 @@ export class InputPage implements OnInit
     private buildForm(): void
     {
         this.formGroup = this._formBuilder.group({
-            email: new FormControl(),
-            password: new FormControl(),
+            email: new FormControl("", [ Validators.email ]),
         });
     }
 
