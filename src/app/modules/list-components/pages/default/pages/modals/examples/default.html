@@ -6,5 +6,7 @@
 <!-- Modal -->
 <fover-modal
     *ngIf="showModal"
+    [title]="'Modal da Fover'"
+    [widthPixel]="600"
     (close)="showModal = false;">
 </fover-modal>
