@@ -201,8 +201,10 @@
 
     .label
     {
-        font-size: 16px;
+        text-align: start;
+        font-size: 14px;
         margin-bottom: 6px;
+        color: var(--placeholder);
     }
 
     .message-error
