@@ -30,6 +30,5 @@ export class FoverModalComponent implements OnChanges, OnInit
     private calcSize(): void
     {
         this.left = `calc(50% - ${this.widthPixel / 2}px`;
-        debugger
     }
 }
